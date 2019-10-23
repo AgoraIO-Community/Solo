@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SATECodec_FIX", "SATECodec_FIX\SATECodec_FIX.vcxproj", "{56B91D01-9150-4BBF-AFA1-5B68AB991B76}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JC1Decoder", "JC1Decoder\JC1Decoder.vcxproj", "{82685D7F-0589-42BD-877C-31A952D53A8E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{762FB3F3-D211-4F74-994F-4FDDFB665E67} = {762FB3F3-D211-4F74-994F-4FDDFB665E67}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JC1Encoder", "JC1Encoder\JC1Encoder.vcxproj", "{6D97A8EF-5724-4D85-8BF4-C583714BBA78}"
+	ProjectSection(ProjectDependencies) = postProject
+		{762FB3F3-D211-4F74-994F-4FDDFB665E67} = {762FB3F3-D211-4F74-994F-4FDDFB665E67}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libBWE", "libBWE\libBWE.vcxproj", "{762FB3F3-D211-4F74-994F-4FDDFB665E67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56B91D01-9150-4BBF-AFA1-5B68AB991B76}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56B91D01-9150-4BBF-AFA1-5B68AB991B76}.Debug|Win32.Build.0 = Debug|Win32
+		{56B91D01-9150-4BBF-AFA1-5B68AB991B76}.Debug|x64.ActiveCfg = Debug|Win32
+		{56B91D01-9150-4BBF-AFA1-5B68AB991B76}.Release|Win32.ActiveCfg = Release|Win32
+		{56B91D01-9150-4BBF-AFA1-5B68AB991B76}.Release|Win32.Build.0 = Release|Win32
+		{56B91D01-9150-4BBF-AFA1-5B68AB991B76}.Release|x64.ActiveCfg = Release|Win32
+		{82685D7F-0589-42BD-877C-31A952D53A8E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{82685D7F-0589-42BD-877C-31A952D53A8E}.Debug|Win32.Build.0 = Debug|Win32
+		{82685D7F-0589-42BD-877C-31A952D53A8E}.Debug|x64.ActiveCfg = Debug|x64
+		{82685D7F-0589-42BD-877C-31A952D53A8E}.Debug|x64.Build.0 = Debug|x64
+		{82685D7F-0589-42BD-877C-31A952D53A8E}.Release|Win32.ActiveCfg = Release|Win32
+		{82685D7F-0589-42BD-877C-31A952D53A8E}.Release|Win32.Build.0 = Release|Win32
+		{82685D7F-0589-42BD-877C-31A952D53A8E}.Release|x64.ActiveCfg = Release|x64
+		{82685D7F-0589-42BD-877C-31A952D53A8E}.Release|x64.Build.0 = Release|x64
+		{6D97A8EF-5724-4D85-8BF4-C583714BBA78}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D97A8EF-5724-4D85-8BF4-C583714BBA78}.Debug|Win32.Build.0 = Debug|Win32
+		{6D97A8EF-5724-4D85-8BF4-C583714BBA78}.Debug|x64.ActiveCfg = Debug|x64
+		{6D97A8EF-5724-4D85-8BF4-C583714BBA78}.Debug|x64.Build.0 = Debug|x64
+		{6D97A8EF-5724-4D85-8BF4-C583714BBA78}.Release|Win32.ActiveCfg = Release|Win32
+		{6D97A8EF-5724-4D85-8BF4-C583714BBA78}.Release|Win32.Build.0 = Release|Win32
+		{6D97A8EF-5724-4D85-8BF4-C583714BBA78}.Release|x64.ActiveCfg = Release|x64
+		{6D97A8EF-5724-4D85-8BF4-C583714BBA78}.Release|x64.Build.0 = Release|x64
+		{762FB3F3-D211-4F74-994F-4FDDFB665E67}.Debug|Win32.ActiveCfg = Debug|Win32
+		{762FB3F3-D211-4F74-994F-4FDDFB665E67}.Debug|Win32.Build.0 = Debug|Win32
+		{762FB3F3-D211-4F74-994F-4FDDFB665E67}.Debug|x64.ActiveCfg = Debug|Win32
+		{762FB3F3-D211-4F74-994F-4FDDFB665E67}.Release|Win32.ActiveCfg = Release|Win32
+		{762FB3F3-D211-4F74-994F-4FDDFB665E67}.Release|Win32.Build.0 = Release|Win32
+		{762FB3F3-D211-4F74-994F-4FDDFB665E67}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

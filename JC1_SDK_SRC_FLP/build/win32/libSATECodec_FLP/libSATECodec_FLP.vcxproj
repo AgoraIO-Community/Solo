@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\libSATECodec\Agora_SILK_func.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_A2NLSF.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_allpass_int.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_allpass_int_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_ana_filt_bank_1.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_apply_sine_window_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_autocorrelation_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_biquad.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_biquad_alt.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_burg_modified_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_bwexpander.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_bwexpander_32.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_bwexpander_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_CNG.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_code_signs.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_control_audio_bandwidth.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_control_codec_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_corrMatrix_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_create_init_destroy.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_decimate2_coarsest_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_decimate2_coarse_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_decoder_set_fs.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_decode_core.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_decode_frame.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_decode_parameters.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_decode_pitch.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_decode_pulses.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_dec_API.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_detect_SWB_input.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_encode_frame_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_encode_parameters.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_encode_pulses.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_enc_API.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_energy_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_find_LPC_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_find_LTP_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_find_pitch_lags_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_find_pred_coefs_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_gain_quant.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_HP_variable_cutoff_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_init_encoder_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_inner_product_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_interpolate.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_k2a_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_LBRR_reset.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_levinsondurbin_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_lin2log.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_log2lin.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_lowpass_int.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_lowpass_short.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_LPC_analysis_filter_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_LPC_inv_pred_gain.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_LPC_inv_pred_gain_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_LPC_synthesis_filter.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_LPC_synthesis_order16.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_LP_variable_cutoff.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_LSF_cos_table.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_LTP_analysis_filter_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_LTP_scale_ctrl_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_MA.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_NLSF2A.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_NLSF2A_stable.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_NLSF_MSVQ_decode.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_NLSF_MSVQ_decode_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_NLSF_MSVQ_encode_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_NLSF_stabilize.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_NLSF_VQ_rate_distortion_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_NLSF_VQ_sum_error_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_NLSF_VQ_weights_laroia_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_noise_shape_analysis_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_NSQ.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_NSQ_del_dec.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_pitch_analysis_core_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_pitch_est_tables.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_PLC.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_prefilter_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_process_gains_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_process_NLSFs_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_quant_LTP_gains_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_range_coder.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_regularize_correlations_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_resampler.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_down2.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_down2_3.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_down3.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_private_AR2.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_private_ARMA4.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_private_copy.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_private_down4.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_private_down_FIR.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_private_IIR_FIR.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_private_up2_HQ.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_private_up4.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_rom.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_up2.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_residual_energy_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_scale_copy_vector_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_scale_vector_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_schur_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_shell_coder.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_sigm_Q15.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_solve_LS_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_sort.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_sort_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_sum_sqr_shift.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_gain.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_LTP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_NLSF_CB0_10.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_NLSF_CB0_10_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_NLSF_CB0_16.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_NLSF_CB0_16_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_NLSF_CB1_10.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_NLSF_CB1_10_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_NLSF_CB1_16.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_NLSF_CB1_16_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_other.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_other_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_pitch_lag.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_pulses_per_block.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_sign.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_tables_type_offset.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_VAD.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_VQ_nearest_neighbor_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_warped_autocorrelation_FLP.c" />
+    <ClCompile Include="..\..\..\src\libSATECodec\SKP_Silk_wrappers_FLP.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_common_pitch_est_defines.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_define.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_Inlines.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_macros.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_main.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_main_FLP.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_pitch_est_defines.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_pitch_est_defines_FLP.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_PLC.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_private.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_rom.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_resampler_structs.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_setup_complexity.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_SigProc_FIX.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_SigProc_FLP.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_structs.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_structs_FLP.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_tables.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_tables_FLP.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_tables_NLSF_CB0_10.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_tables_NLSF_CB0_16.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_tables_NLSF_CB1_10.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_tables_NLSF_CB1_16.h" />
+    <ClInclude Include="..\..\..\src\libSATECodec\SKP_Silk_tuning_parameters.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B373A653-9A85-4484-9182-2830D373BA3C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libSATECodec</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../interface;../../../src/libSATECodec</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>../../../lib/$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../interface;../../../src/libSATECodec</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <OutputFile>../../../lib/$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

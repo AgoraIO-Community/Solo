@@ -1,0 +1,1294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A96978DC23546F20004ECEF7 /* SKP_Silk_interpolate.c in Sources */ = {isa = PBXBuildFile; fileRef = A969783E23546F20004ECEF7 /* SKP_Silk_interpolate.c */; };
+		A96978DD23546F20004ECEF7 /* SKP_Silk_interpolate.c in Sources */ = {isa = PBXBuildFile; fileRef = A969783E23546F20004ECEF7 /* SKP_Silk_interpolate.c */; };
+		A96978DE23546F20004ECEF7 /* SKP_Silk_corrMatrix_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969783F23546F20004ECEF7 /* SKP_Silk_corrMatrix_FIX.c */; };
+		A96978DF23546F20004ECEF7 /* SKP_Silk_corrMatrix_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969783F23546F20004ECEF7 /* SKP_Silk_corrMatrix_FIX.c */; };
+		A96978E023546F20004ECEF7 /* SKP_Silk_biquad.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784023546F20004ECEF7 /* SKP_Silk_biquad.c */; };
+		A96978E123546F20004ECEF7 /* SKP_Silk_biquad.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784023546F20004ECEF7 /* SKP_Silk_biquad.c */; };
+		A96978E223546F20004ECEF7 /* SKP_Silk_resampler_private_AR2.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784123546F20004ECEF7 /* SKP_Silk_resampler_private_AR2.c */; };
+		A96978E323546F20004ECEF7 /* SKP_Silk_resampler_private_AR2.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784123546F20004ECEF7 /* SKP_Silk_resampler_private_AR2.c */; };
+		A96978E423546F20004ECEF7 /* SKP_Silk_tables_type_offset.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784223546F20004ECEF7 /* SKP_Silk_tables_type_offset.c */; };
+		A96978E523546F20004ECEF7 /* SKP_Silk_tables_type_offset.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784223546F20004ECEF7 /* SKP_Silk_tables_type_offset.c */; };
+		A96978E623546F20004ECEF7 /* SKP_Silk_resampler_down2_3.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784423546F20004ECEF7 /* SKP_Silk_resampler_down2_3.c */; };
+		A96978E723546F20004ECEF7 /* SKP_Silk_resampler_down2_3.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784423546F20004ECEF7 /* SKP_Silk_resampler_down2_3.c */; };
+		A96978E823546F20004ECEF7 /* SKP_Silk_find_pred_coefs_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784523546F20004ECEF7 /* SKP_Silk_find_pred_coefs_FIX.c */; };
+		A96978E923546F20004ECEF7 /* SKP_Silk_find_pred_coefs_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784523546F20004ECEF7 /* SKP_Silk_find_pred_coefs_FIX.c */; };
+		A96978EA23546F20004ECEF7 /* SKP_Silk_VQ_nearest_neighbor_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784623546F20004ECEF7 /* SKP_Silk_VQ_nearest_neighbor_FIX.c */; };
+		A96978EB23546F20004ECEF7 /* SKP_Silk_VQ_nearest_neighbor_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784623546F20004ECEF7 /* SKP_Silk_VQ_nearest_neighbor_FIX.c */; };
+		A96978EC23546F20004ECEF7 /* SKP_Silk_quant_LTP_gains_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784723546F20004ECEF7 /* SKP_Silk_quant_LTP_gains_FIX.c */; };
+		A96978ED23546F20004ECEF7 /* SKP_Silk_quant_LTP_gains_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784723546F20004ECEF7 /* SKP_Silk_quant_LTP_gains_FIX.c */; };
+		A96978EE23546F20004ECEF7 /* SKP_Silk_init_encoder_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784823546F20004ECEF7 /* SKP_Silk_init_encoder_FIX.c */; };
+		A96978EF23546F20004ECEF7 /* SKP_Silk_init_encoder_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784823546F20004ECEF7 /* SKP_Silk_init_encoder_FIX.c */; };
+		A96978F023546F20004ECEF7 /* SKP_Silk_bwexpander_32.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784923546F20004ECEF7 /* SKP_Silk_bwexpander_32.c */; };
+		A96978F123546F20004ECEF7 /* SKP_Silk_bwexpander_32.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784923546F20004ECEF7 /* SKP_Silk_bwexpander_32.c */; };
+		A96978F223546F20004ECEF7 /* SKP_Silk_CNG.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784A23546F20004ECEF7 /* SKP_Silk_CNG.c */; };
+		A96978F323546F20004ECEF7 /* SKP_Silk_CNG.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784A23546F20004ECEF7 /* SKP_Silk_CNG.c */; };
+		A96978F423546F20004ECEF7 /* SKP_Silk_LSF_cos_table.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784B23546F20004ECEF7 /* SKP_Silk_LSF_cos_table.c */; };
+		A96978F523546F20004ECEF7 /* SKP_Silk_LSF_cos_table.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784B23546F20004ECEF7 /* SKP_Silk_LSF_cos_table.c */; };
+		A96978F623546F20004ECEF7 /* SKP_Silk_resampler_rom.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784C23546F20004ECEF7 /* SKP_Silk_resampler_rom.c */; };
+		A96978F723546F20004ECEF7 /* SKP_Silk_resampler_rom.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784C23546F20004ECEF7 /* SKP_Silk_resampler_rom.c */; };
+		A96978F823546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969784D23546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ_arm.S */; };
+		A96978F923546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969784D23546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ_arm.S */; };
+		A96978FA23546F20004ECEF7 /* SKP_Silk_autocorr.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784E23546F20004ECEF7 /* SKP_Silk_autocorr.c */; };
+		A96978FB23546F20004ECEF7 /* SKP_Silk_autocorr.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784E23546F20004ECEF7 /* SKP_Silk_autocorr.c */; };
+		A96978FC23546F20004ECEF7 /* SKP_Silk_dec_API.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784F23546F20004ECEF7 /* SKP_Silk_dec_API.c */; };
+		A96978FD23546F20004ECEF7 /* SKP_Silk_dec_API.c in Sources */ = {isa = PBXBuildFile; fileRef = A969784F23546F20004ECEF7 /* SKP_Silk_dec_API.c */; };
+		A96978FE23546F20004ECEF7 /* Agora_SILK_func.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785123546F20004ECEF7 /* Agora_SILK_func.c */; };
+		A96978FF23546F20004ECEF7 /* Agora_SILK_func.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785123546F20004ECEF7 /* Agora_SILK_func.c */; };
+		A969790023546F20004ECEF7 /* SKP_Silk_noise_shape_analysis_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785223546F20004ECEF7 /* SKP_Silk_noise_shape_analysis_FIX.c */; };
+		A969790123546F20004ECEF7 /* SKP_Silk_noise_shape_analysis_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785223546F20004ECEF7 /* SKP_Silk_noise_shape_analysis_FIX.c */; };
+		A969790223546F20004ECEF7 /* SKP_Silk_sum_sqr_shift_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969785323546F20004ECEF7 /* SKP_Silk_sum_sqr_shift_arm.S */; };
+		A969790323546F20004ECEF7 /* SKP_Silk_sum_sqr_shift_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969785323546F20004ECEF7 /* SKP_Silk_sum_sqr_shift_arm.S */; };
+		A969790423546F20004ECEF7 /* SKP_Silk_residual_energy16_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785523546F20004ECEF7 /* SKP_Silk_residual_energy16_FIX.c */; };
+		A969790523546F20004ECEF7 /* SKP_Silk_residual_energy16_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785523546F20004ECEF7 /* SKP_Silk_residual_energy16_FIX.c */; };
+		A969790623546F20004ECEF7 /* SKP_Silk_apply_sine_window.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785723546F20004ECEF7 /* SKP_Silk_apply_sine_window.c */; };
+		A969790723546F20004ECEF7 /* SKP_Silk_apply_sine_window.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785723546F20004ECEF7 /* SKP_Silk_apply_sine_window.c */; };
+		A969790823546F20004ECEF7 /* SKP_Silk_resampler_up2.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785823546F20004ECEF7 /* SKP_Silk_resampler_up2.c */; };
+		A969790923546F20004ECEF7 /* SKP_Silk_resampler_up2.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785823546F20004ECEF7 /* SKP_Silk_resampler_up2.c */; };
+		A969790A23546F20004ECEF7 /* SKP_Silk_resampler_up2_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969785923546F20004ECEF7 /* SKP_Silk_resampler_up2_arm.S */; };
+		A969790B23546F20004ECEF7 /* SKP_Silk_resampler_up2_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969785923546F20004ECEF7 /* SKP_Silk_resampler_up2_arm.S */; };
+		A969790C23546F20004ECEF7 /* SKP_Silk_solve_LS_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785A23546F20004ECEF7 /* SKP_Silk_solve_LS_FIX.c */; };
+		A969790D23546F20004ECEF7 /* SKP_Silk_solve_LS_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785A23546F20004ECEF7 /* SKP_Silk_solve_LS_FIX.c */; };
+		A969790E23546F20004ECEF7 /* SKP_Silk_VAD.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785B23546F20004ECEF7 /* SKP_Silk_VAD.c */; };
+		A969790F23546F20004ECEF7 /* SKP_Silk_VAD.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785B23546F20004ECEF7 /* SKP_Silk_VAD.c */; };
+		A969791023546F20004ECEF7 /* SKP_Silk_sigm_Q15_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969785C23546F20004ECEF7 /* SKP_Silk_sigm_Q15_arm.S */; };
+		A969791123546F20004ECEF7 /* SKP_Silk_sigm_Q15_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969785C23546F20004ECEF7 /* SKP_Silk_sigm_Q15_arm.S */; };
+		A969791223546F20004ECEF7 /* SKP_Silk_NLSF2A_stable.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785D23546F20004ECEF7 /* SKP_Silk_NLSF2A_stable.c */; };
+		A969791323546F20004ECEF7 /* SKP_Silk_NLSF2A_stable.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785D23546F20004ECEF7 /* SKP_Silk_NLSF2A_stable.c */; };
+		A969791423546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969785E23546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX_arm.S */; };
+		A969791523546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969785E23546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX_arm.S */; };
+		A969791623546F20004ECEF7 /* SKP_Silk_shell_coder.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785F23546F20004ECEF7 /* SKP_Silk_shell_coder.c */; };
+		A969791723546F20004ECEF7 /* SKP_Silk_shell_coder.c in Sources */ = {isa = PBXBuildFile; fileRef = A969785F23546F20004ECEF7 /* SKP_Silk_shell_coder.c */; };
+		A969791823546F20004ECEF7 /* SKP_Silk_schur64_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969786023546F20004ECEF7 /* SKP_Silk_schur64_arm.S */; };
+		A969791923546F20004ECEF7 /* SKP_Silk_schur64_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969786023546F20004ECEF7 /* SKP_Silk_schur64_arm.S */; };
+		A969791A23546F20004ECEF7 /* SKP_Silk_inner_prod_aligned.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786123546F20004ECEF7 /* SKP_Silk_inner_prod_aligned.c */; };
+		A969791B23546F20004ECEF7 /* SKP_Silk_inner_prod_aligned.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786123546F20004ECEF7 /* SKP_Silk_inner_prod_aligned.c */; };
+		A969791C23546F20004ECEF7 /* SKP_Silk_MA.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786223546F20004ECEF7 /* SKP_Silk_MA.c */; };
+		A969791D23546F20004ECEF7 /* SKP_Silk_MA.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786223546F20004ECEF7 /* SKP_Silk_MA.c */; };
+		A969791E23546F20004ECEF7 /* SKP_Silk_range_coder.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786323546F20004ECEF7 /* SKP_Silk_range_coder.c */; };
+		A969791F23546F20004ECEF7 /* SKP_Silk_range_coder.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786323546F20004ECEF7 /* SKP_Silk_range_coder.c */; };
+		A969792023546F20004ECEF7 /* SKP_Silk_control_codec_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786423546F20004ECEF7 /* SKP_Silk_control_codec_FIX.c */; };
+		A969792123546F20004ECEF7 /* SKP_Silk_control_codec_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786423546F20004ECEF7 /* SKP_Silk_control_codec_FIX.c */; };
+		A969792223546F20004ECEF7 /* SKP_Silk_k2a.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786523546F20004ECEF7 /* SKP_Silk_k2a.c */; };
+		A969792323546F20004ECEF7 /* SKP_Silk_k2a.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786523546F20004ECEF7 /* SKP_Silk_k2a.c */; };
+		A969792423546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786623546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX.c */; };
+		A969792523546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786623546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX.c */; };
+		A969792623546F20004ECEF7 /* SKP_Silk_find_LPC_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786823546F20004ECEF7 /* SKP_Silk_find_LPC_FIX.c */; };
+		A969792723546F20004ECEF7 /* SKP_Silk_find_LPC_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786823546F20004ECEF7 /* SKP_Silk_find_LPC_FIX.c */; };
+		A969792823546F20004ECEF7 /* SKP_Silk_clz_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969786923546F20004ECEF7 /* SKP_Silk_clz_arm.S */; };
+		A969792923546F20004ECEF7 /* SKP_Silk_clz_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969786923546F20004ECEF7 /* SKP_Silk_clz_arm.S */; };
+		A969792A23546F20004ECEF7 /* SKP_Silk_tables_gain.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786A23546F20004ECEF7 /* SKP_Silk_tables_gain.c */; };
+		A969792B23546F20004ECEF7 /* SKP_Silk_tables_gain.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786A23546F20004ECEF7 /* SKP_Silk_tables_gain.c */; };
+		A969792C23546F20004ECEF7 /* SKP_Silk_sigm_Q15.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786B23546F20004ECEF7 /* SKP_Silk_sigm_Q15.c */; };
+		A969792D23546F20004ECEF7 /* SKP_Silk_sigm_Q15.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786B23546F20004ECEF7 /* SKP_Silk_sigm_Q15.c */; };
+		A969792E23546F20004ECEF7 /* SKP_Silk_NLSF_stabilize.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786C23546F20004ECEF7 /* SKP_Silk_NLSF_stabilize.c */; };
+		A969792F23546F20004ECEF7 /* SKP_Silk_NLSF_stabilize.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786C23546F20004ECEF7 /* SKP_Silk_NLSF_stabilize.c */; };
+		A969793023546F20004ECEF7 /* SKP_Silk_encode_pulses.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786E23546F20004ECEF7 /* SKP_Silk_encode_pulses.c */; };
+		A969793123546F20004ECEF7 /* SKP_Silk_encode_pulses.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786E23546F20004ECEF7 /* SKP_Silk_encode_pulses.c */; };
+		A969793223546F20004ECEF7 /* SKP_Silk_process_NLSFs_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786F23546F20004ECEF7 /* SKP_Silk_process_NLSFs_FIX.c */; };
+		A969793323546F20004ECEF7 /* SKP_Silk_process_NLSFs_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969786F23546F20004ECEF7 /* SKP_Silk_process_NLSFs_FIX.c */; };
+		A969793423546F20004ECEF7 /* SKP_Silk_biquad_alt.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787023546F20004ECEF7 /* SKP_Silk_biquad_alt.c */; };
+		A969793523546F20004ECEF7 /* SKP_Silk_biquad_alt.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787023546F20004ECEF7 /* SKP_Silk_biquad_alt.c */; };
+		A969793623546F20004ECEF7 /* SKP_Silk_tables_LTP.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787123546F20004ECEF7 /* SKP_Silk_tables_LTP.c */; };
+		A969793723546F20004ECEF7 /* SKP_Silk_tables_LTP.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787123546F20004ECEF7 /* SKP_Silk_tables_LTP.c */; };
+		A969793823546F20004ECEF7 /* SKP_Silk_schur.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787223546F20004ECEF7 /* SKP_Silk_schur.c */; };
+		A969793923546F20004ECEF7 /* SKP_Silk_schur.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787223546F20004ECEF7 /* SKP_Silk_schur.c */; };
+		A969793A23546F20004ECEF7 /* SKP_Silk_sum_sqr_shift.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787323546F20004ECEF7 /* SKP_Silk_sum_sqr_shift.c */; };
+		A969793B23546F20004ECEF7 /* SKP_Silk_sum_sqr_shift.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787323546F20004ECEF7 /* SKP_Silk_sum_sqr_shift.c */; };
+		A969793C23546F20004ECEF7 /* SKP_Silk_tables_pitch_lag.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787423546F20004ECEF7 /* SKP_Silk_tables_pitch_lag.c */; };
+		A969793D23546F20004ECEF7 /* SKP_Silk_tables_pitch_lag.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787423546F20004ECEF7 /* SKP_Silk_tables_pitch_lag.c */; };
+		A969793E23546F20004ECEF7 /* SKP_Silk_pitch_est_tables.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787523546F20004ECEF7 /* SKP_Silk_pitch_est_tables.c */; };
+		A969793F23546F20004ECEF7 /* SKP_Silk_pitch_est_tables.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787523546F20004ECEF7 /* SKP_Silk_pitch_est_tables.c */; };
+		A969794023546F20004ECEF7 /* SKP_Silk_process_gains_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787623546F20004ECEF7 /* SKP_Silk_process_gains_FIX.c */; };
+		A969794123546F20004ECEF7 /* SKP_Silk_process_gains_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787623546F20004ECEF7 /* SKP_Silk_process_gains_FIX.c */; };
+		A969794223546F20004ECEF7 /* SKP_Silk_resampler_private_up4.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787823546F20004ECEF7 /* SKP_Silk_resampler_private_up4.c */; };
+		A969794323546F20004ECEF7 /* SKP_Silk_resampler_private_up4.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787823546F20004ECEF7 /* SKP_Silk_resampler_private_up4.c */; };
+		A969794423546F20004ECEF7 /* SKP_Silk_NLSF2A.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787923546F20004ECEF7 /* SKP_Silk_NLSF2A.c */; };
+		A969794523546F20004ECEF7 /* SKP_Silk_NLSF2A.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787923546F20004ECEF7 /* SKP_Silk_NLSF2A.c */; };
+		A969794623546F20004ECEF7 /* SKP_Silk_decode_core.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787A23546F20004ECEF7 /* SKP_Silk_decode_core.c */; };
+		A969794723546F20004ECEF7 /* SKP_Silk_decode_core.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787A23546F20004ECEF7 /* SKP_Silk_decode_core.c */; };
+		A969794823546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_10.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787B23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_10.c */; };
+		A969794923546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_10.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787B23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_10.c */; };
+		A969794A23546F20004ECEF7 /* SKP_Silk_find_pitch_lags_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787D23546F20004ECEF7 /* SKP_Silk_find_pitch_lags_FIX.c */; };
+		A969794B23546F20004ECEF7 /* SKP_Silk_find_pitch_lags_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787D23546F20004ECEF7 /* SKP_Silk_find_pitch_lags_FIX.c */; };
+		A969794C23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_10.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787E23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_10.c */; };
+		A969794D23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_10.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787E23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_10.c */; };
+		A969794E23546F20004ECEF7 /* SKP_Silk_bwexpander.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787F23546F20004ECEF7 /* SKP_Silk_bwexpander.c */; };
+		A969794F23546F20004ECEF7 /* SKP_Silk_bwexpander.c in Sources */ = {isa = PBXBuildFile; fileRef = A969787F23546F20004ECEF7 /* SKP_Silk_bwexpander.c */; };
+		A969795023546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969788023546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4_arm.S */; };
+		A969795123546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969788023546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4_arm.S */; };
+		A969795223546F20004ECEF7 /* SKP_Silk_NSQ_del_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = A969788123546F20004ECEF7 /* SKP_Silk_NSQ_del_dec.c */; };
+		A969795323546F20004ECEF7 /* SKP_Silk_NSQ_del_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = A969788123546F20004ECEF7 /* SKP_Silk_NSQ_del_dec.c */; };
+		A969795423546F20004ECEF7 /* SKP_Silk_inner_prod_aligned_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969788223546F20004ECEF7 /* SKP_Silk_inner_prod_aligned_arm.S */; };
+		A969795523546F20004ECEF7 /* SKP_Silk_inner_prod_aligned_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969788223546F20004ECEF7 /* SKP_Silk_inner_prod_aligned_arm.S */; };
+		A969795623546F20004ECEF7 /* SKP_Silk_resampler_private_AR2_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969788423546F20004ECEF7 /* SKP_Silk_resampler_private_AR2_arm.S */; };
+		A969795723546F20004ECEF7 /* SKP_Silk_resampler_private_AR2_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969788423546F20004ECEF7 /* SKP_Silk_resampler_private_AR2_arm.S */; };
+		A969795823546F20004ECEF7 /* SKP_Silk_resampler_private_copy.c in Sources */ = {isa = PBXBuildFile; fileRef = A969788523546F20004ECEF7 /* SKP_Silk_resampler_private_copy.c */; };
+		A969795923546F20004ECEF7 /* SKP_Silk_resampler_private_copy.c in Sources */ = {isa = PBXBuildFile; fileRef = A969788523546F20004ECEF7 /* SKP_Silk_resampler_private_copy.c */; };
+		A969795A23546F20004ECEF7 /* SKP_Silk_div_oabi.c in Sources */ = {isa = PBXBuildFile; fileRef = A969788623546F20004ECEF7 /* SKP_Silk_div_oabi.c */; };
+		A969795B23546F20004ECEF7 /* SKP_Silk_div_oabi.c in Sources */ = {isa = PBXBuildFile; fileRef = A969788623546F20004ECEF7 /* SKP_Silk_div_oabi.c */; };
+		A969795C23546F20004ECEF7 /* SKP_Silk_tables_pulses_per_block.c in Sources */ = {isa = PBXBuildFile; fileRef = A969788723546F20004ECEF7 /* SKP_Silk_tables_pulses_per_block.c */; };
+		A969795D23546F20004ECEF7 /* SKP_Silk_tables_pulses_per_block.c in Sources */ = {isa = PBXBuildFile; fileRef = A969788723546F20004ECEF7 /* SKP_Silk_tables_pulses_per_block.c */; };
+		A969795E23546F20004ECEF7 /* SKP_Silk_code_signs.c in Sources */ = {isa = PBXBuildFile; fileRef = A969788823546F20004ECEF7 /* SKP_Silk_code_signs.c */; };
+		A969795F23546F20004ECEF7 /* SKP_Silk_code_signs.c in Sources */ = {isa = PBXBuildFile; fileRef = A969788823546F20004ECEF7 /* SKP_Silk_code_signs.c */; };
+		A969796023546F20004ECEF7 /* SKP_Silk_control_audio_bandwidth.c in Sources */ = {isa = PBXBuildFile; fileRef = A969788923546F20004ECEF7 /* SKP_Silk_control_audio_bandwidth.c */; };
+		A969796123546F20004ECEF7 /* SKP_Silk_control_audio_bandwidth.c in Sources */ = {isa = PBXBuildFile; fileRef = A969788923546F20004ECEF7 /* SKP_Silk_control_audio_bandwidth.c */; };
+		A969796223546F20004ECEF7 /* SKP_Silk_lin2log_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969788A23546F20004ECEF7 /* SKP_Silk_lin2log_arm.S */; };
+		A969796323546F20004ECEF7 /* SKP_Silk_lin2log_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969788A23546F20004ECEF7 /* SKP_Silk_lin2log_arm.S */; };
+		A969796423546F20004ECEF7 /* SKP_Silk_resampler_rom_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969788B23546F20004ECEF7 /* SKP_Silk_resampler_rom_arm.S */; };
+		A969796523546F20004ECEF7 /* SKP_Silk_resampler_rom_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969788B23546F20004ECEF7 /* SKP_Silk_resampler_rom_arm.S */; };
+		A969796623546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = A969788D23546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_decode.c */; };
+		A969796723546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = A969788D23546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_decode.c */; };
+		A969796823546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969788E23546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR_arm.S */; };
+		A969796923546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969788E23546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR_arm.S */; };
+		A969796A23546F20004ECEF7 /* SKP_Silk_prefilter_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789023546F20004ECEF7 /* SKP_Silk_prefilter_FIX.c */; };
+		A969796B23546F20004ECEF7 /* SKP_Silk_prefilter_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789023546F20004ECEF7 /* SKP_Silk_prefilter_FIX.c */; };
+		A969796C23546F20004ECEF7 /* SKP_Silk_resampler_down3.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789123546F20004ECEF7 /* SKP_Silk_resampler_down3.c */; };
+		A969796D23546F20004ECEF7 /* SKP_Silk_resampler_down3.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789123546F20004ECEF7 /* SKP_Silk_resampler_down3.c */; };
+		A969796E23546F20004ECEF7 /* SKP_Silk_tables_other.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789323546F20004ECEF7 /* SKP_Silk_tables_other.c */; };
+		A969796F23546F20004ECEF7 /* SKP_Silk_tables_other.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789323546F20004ECEF7 /* SKP_Silk_tables_other.c */; };
+		A969797023546F20004ECEF7 /* SKP_Silk_resampler_private_down4.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789423546F20004ECEF7 /* SKP_Silk_resampler_private_down4.c */; };
+		A969797123546F20004ECEF7 /* SKP_Silk_resampler_private_down4.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789423546F20004ECEF7 /* SKP_Silk_resampler_private_down4.c */; };
+		A969797223546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969789623546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR_arm.S */; };
+		A969797323546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A969789623546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR_arm.S */; };
+		A969797423546F20004ECEF7 /* SKP_Silk_resampler.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789723546F20004ECEF7 /* SKP_Silk_resampler.c */; };
+		A969797523546F20004ECEF7 /* SKP_Silk_resampler.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789723546F20004ECEF7 /* SKP_Silk_resampler.c */; };
+		A969797623546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789823546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX.c */; };
+		A969797723546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789823546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX.c */; };
+		A969797823546F20004ECEF7 /* SKP_Silk_NLSF_VQ_rate_distortion_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789923546F20004ECEF7 /* SKP_Silk_NLSF_VQ_rate_distortion_FIX.c */; };
+		A969797923546F20004ECEF7 /* SKP_Silk_NLSF_VQ_rate_distortion_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789923546F20004ECEF7 /* SKP_Silk_NLSF_VQ_rate_distortion_FIX.c */; };
+		A969797A23546F20004ECEF7 /* SKP_Silk_encode_frame_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789B23546F20004ECEF7 /* SKP_Silk_encode_frame_FIX.c */; };
+		A969797B23546F20004ECEF7 /* SKP_Silk_encode_frame_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789B23546F20004ECEF7 /* SKP_Silk_encode_frame_FIX.c */; };
+		A969797C23546F20004ECEF7 /* SKP_Silk_regularize_correlations_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789C23546F20004ECEF7 /* SKP_Silk_regularize_correlations_FIX.c */; };
+		A969797D23546F20004ECEF7 /* SKP_Silk_regularize_correlations_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789C23546F20004ECEF7 /* SKP_Silk_regularize_correlations_FIX.c */; };
+		A969797E23546F20004ECEF7 /* SKP_Silk_lin2log.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789E23546F20004ECEF7 /* SKP_Silk_lin2log.c */; };
+		A969797F23546F20004ECEF7 /* SKP_Silk_lin2log.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789E23546F20004ECEF7 /* SKP_Silk_lin2log.c */; };
+		A969798023546F20004ECEF7 /* SKP_Silk_tables_sign.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789F23546F20004ECEF7 /* SKP_Silk_tables_sign.c */; };
+		A969798123546F20004ECEF7 /* SKP_Silk_tables_sign.c in Sources */ = {isa = PBXBuildFile; fileRef = A969789F23546F20004ECEF7 /* SKP_Silk_tables_sign.c */; };
+		A969798223546F20004ECEF7 /* SKP_Silk_array_maxabs.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978A023546F20004ECEF7 /* SKP_Silk_array_maxabs.c */; };
+		A969798323546F20004ECEF7 /* SKP_Silk_array_maxabs.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978A023546F20004ECEF7 /* SKP_Silk_array_maxabs.c */; };
+		A969798423546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_encode_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978A123546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_encode_FIX.c */; };
+		A969798523546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_encode_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978A123546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_encode_FIX.c */; };
+		A969798623546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978A223546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX_arm.S */; };
+		A969798723546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978A223546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX_arm.S */; };
+		A969798823546F20004ECEF7 /* SKP_Silk_find_LTP_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978A323546F20004ECEF7 /* SKP_Silk_find_LTP_FIX.c */; };
+		A969798923546F20004ECEF7 /* SKP_Silk_find_LTP_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978A323546F20004ECEF7 /* SKP_Silk_find_LTP_FIX.c */; };
+		A969798A23546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978A523546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ.c */; };
+		A969798B23546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978A523546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ.c */; };
+		A969798C23546F20004ECEF7 /* SKP_Silk_allpass_int_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978A623546F20004ECEF7 /* SKP_Silk_allpass_int_arm.S */; };
+		A969798D23546F20004ECEF7 /* SKP_Silk_allpass_int_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978A623546F20004ECEF7 /* SKP_Silk_allpass_int_arm.S */; };
+		A969798E23546F20004ECEF7 /* SKP_Silk_decode_core_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978A823546F20004ECEF7 /* SKP_Silk_decode_core_arm.S */; };
+		A969798F23546F20004ECEF7 /* SKP_Silk_decode_core_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978A823546F20004ECEF7 /* SKP_Silk_decode_core_arm.S */; };
+		A969799023546F20004ECEF7 /* SKP_Silk_LBRR_reset.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978A923546F20004ECEF7 /* SKP_Silk_LBRR_reset.c */; };
+		A969799123546F20004ECEF7 /* SKP_Silk_LBRR_reset.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978A923546F20004ECEF7 /* SKP_Silk_LBRR_reset.c */; };
+		A969799223546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978AA23546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR.c */; };
+		A969799323546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978AA23546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR.c */; };
+		A969799423546F20004ECEF7 /* SKP_Silk_scale_vector.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978AB23546F20004ECEF7 /* SKP_Silk_scale_vector.c */; };
+		A969799523546F20004ECEF7 /* SKP_Silk_scale_vector.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978AB23546F20004ECEF7 /* SKP_Silk_scale_vector.c */; };
+		A969799623546F20004ECEF7 /* SKP_Silk_LPC_inv_pred_gain.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978AD23546F20004ECEF7 /* SKP_Silk_LPC_inv_pred_gain.c */; };
+		A969799723546F20004ECEF7 /* SKP_Silk_LPC_inv_pred_gain.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978AD23546F20004ECEF7 /* SKP_Silk_LPC_inv_pred_gain.c */; };
+		A969799823546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978AE23546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1.c */; };
+		A969799923546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978AE23546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1.c */; };
+		A969799A23546F20004ECEF7 /* SKP_Silk_LPC_synthesis_order16.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978AF23546F20004ECEF7 /* SKP_Silk_LPC_synthesis_order16.c */; };
+		A969799B23546F20004ECEF7 /* SKP_Silk_LPC_synthesis_order16.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978AF23546F20004ECEF7 /* SKP_Silk_LPC_synthesis_order16.c */; };
+		A969799C23546F20004ECEF7 /* SKP_Silk_resampler_down2.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978B023546F20004ECEF7 /* SKP_Silk_resampler_down2.c */; };
+		A969799D23546F20004ECEF7 /* SKP_Silk_resampler_down2.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978B023546F20004ECEF7 /* SKP_Silk_resampler_down2.c */; };
+		A969799E23546F20004ECEF7 /* SKP_Silk_decode_pitch.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978B123546F20004ECEF7 /* SKP_Silk_decode_pitch.c */; };
+		A969799F23546F20004ECEF7 /* SKP_Silk_decode_pitch.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978B123546F20004ECEF7 /* SKP_Silk_decode_pitch.c */; };
+		A96979A023546F20004ECEF7 /* SKP_Silk_detect_SWB_input.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978B223546F20004ECEF7 /* SKP_Silk_detect_SWB_input.c */; };
+		A96979A123546F20004ECEF7 /* SKP_Silk_detect_SWB_input.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978B223546F20004ECEF7 /* SKP_Silk_detect_SWB_input.c */; };
+		A96979A223546F20004ECEF7 /* SKP_Silk_array_maxabs_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978B323546F20004ECEF7 /* SKP_Silk_array_maxabs_arm.S */; };
+		A96979A323546F20004ECEF7 /* SKP_Silk_array_maxabs_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978B323546F20004ECEF7 /* SKP_Silk_array_maxabs_arm.S */; };
+		A96979A423546F20004ECEF7 /* SKP_Silk_k2a_Q16.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978B423546F20004ECEF7 /* SKP_Silk_k2a_Q16.c */; };
+		A96979A523546F20004ECEF7 /* SKP_Silk_k2a_Q16.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978B423546F20004ECEF7 /* SKP_Silk_k2a_Q16.c */; };
+		A96979A623546F20004ECEF7 /* SKP_Silk_pitch_analysis_core.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978B623546F20004ECEF7 /* SKP_Silk_pitch_analysis_core.c */; };
+		A96979A723546F20004ECEF7 /* SKP_Silk_pitch_analysis_core.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978B623546F20004ECEF7 /* SKP_Silk_pitch_analysis_core.c */; };
+		A96979A823546F20004ECEF7 /* SKP_Silk_LTP_analysis_filter_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978B723546F20004ECEF7 /* SKP_Silk_LTP_analysis_filter_FIX.c */; };
+		A96979A923546F20004ECEF7 /* SKP_Silk_LTP_analysis_filter_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978B723546F20004ECEF7 /* SKP_Silk_LTP_analysis_filter_FIX.c */; };
+		A96979AA23546F20004ECEF7 /* SKP_Silk_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978B923546F20004ECEF7 /* SKP_Silk_sort.c */; };
+		A96979AB23546F20004ECEF7 /* SKP_Silk_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978B923546F20004ECEF7 /* SKP_Silk_sort.c */; };
+		A96979AC23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_16.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978BA23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_16.c */; };
+		A96979AD23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_16.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978BA23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_16.c */; };
+		A96979AE23546F20004ECEF7 /* SKP_Silk_scale_copy_vector16.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978BD23546F20004ECEF7 /* SKP_Silk_scale_copy_vector16.c */; };
+		A96979AF23546F20004ECEF7 /* SKP_Silk_scale_copy_vector16.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978BD23546F20004ECEF7 /* SKP_Silk_scale_copy_vector16.c */; };
+		A96979B023546F20004ECEF7 /* SKP_Silk_log2lin.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978BE23546F20004ECEF7 /* SKP_Silk_log2lin.c */; };
+		A96979B123546F20004ECEF7 /* SKP_Silk_log2lin.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978BE23546F20004ECEF7 /* SKP_Silk_log2lin.c */; };
+		A96979B223546F20004ECEF7 /* SKP_Silk_decode_frame.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978BF23546F20004ECEF7 /* SKP_Silk_decode_frame.c */; };
+		A96979B323546F20004ECEF7 /* SKP_Silk_decode_frame.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978BF23546F20004ECEF7 /* SKP_Silk_decode_frame.c */; };
+		A96979B423546F20004ECEF7 /* SKP_Silk_HP_variable_cutoff_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C023546F20004ECEF7 /* SKP_Silk_HP_variable_cutoff_FIX.c */; };
+		A96979B523546F20004ECEF7 /* SKP_Silk_HP_variable_cutoff_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C023546F20004ECEF7 /* SKP_Silk_HP_variable_cutoff_FIX.c */; };
+		A96979B623546F20004ECEF7 /* SKP_Silk_decode_parameters.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C123546F20004ECEF7 /* SKP_Silk_decode_parameters.c */; };
+		A96979B723546F20004ECEF7 /* SKP_Silk_decode_parameters.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C123546F20004ECEF7 /* SKP_Silk_decode_parameters.c */; };
+		A96979B823546F20004ECEF7 /* SKP_Silk_create_init_destroy.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C223546F20004ECEF7 /* SKP_Silk_create_init_destroy.c */; };
+		A96979B923546F20004ECEF7 /* SKP_Silk_create_init_destroy.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C223546F20004ECEF7 /* SKP_Silk_create_init_destroy.c */; };
+		A96979BA23546F20004ECEF7 /* SKP_Silk_PLC.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C323546F20004ECEF7 /* SKP_Silk_PLC.c */; };
+		A96979BB23546F20004ECEF7 /* SKP_Silk_PLC.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C323546F20004ECEF7 /* SKP_Silk_PLC.c */; };
+		A96979BC23546F20004ECEF7 /* SKP_Silk_LP_variable_cutoff.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C423546F20004ECEF7 /* SKP_Silk_LP_variable_cutoff.c */; };
+		A96979BD23546F20004ECEF7 /* SKP_Silk_LP_variable_cutoff.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C423546F20004ECEF7 /* SKP_Silk_LP_variable_cutoff.c */; };
+		A96979BE23546F20004ECEF7 /* SKP_Silk_enc_API.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C523546F20004ECEF7 /* SKP_Silk_enc_API.c */; };
+		A96979BF23546F20004ECEF7 /* SKP_Silk_enc_API.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C523546F20004ECEF7 /* SKP_Silk_enc_API.c */; };
+		A96979C023546F20004ECEF7 /* SKP_Silk_NLSF_VQ_weights_laroia.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C723546F20004ECEF7 /* SKP_Silk_NLSF_VQ_weights_laroia.c */; };
+		A96979C123546F20004ECEF7 /* SKP_Silk_NLSF_VQ_weights_laroia.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C723546F20004ECEF7 /* SKP_Silk_NLSF_VQ_weights_laroia.c */; };
+		A96979C223546F20004ECEF7 /* SKP_Silk_resampler_down2_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978C823546F20004ECEF7 /* SKP_Silk_resampler_down2_arm.S */; };
+		A96979C323546F20004ECEF7 /* SKP_Silk_resampler_down2_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978C823546F20004ECEF7 /* SKP_Silk_resampler_down2_arm.S */; };
+		A96979C423546F20004ECEF7 /* SKP_Silk_gain_quant.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C923546F20004ECEF7 /* SKP_Silk_gain_quant.c */; };
+		A96979C523546F20004ECEF7 /* SKP_Silk_gain_quant.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978C923546F20004ECEF7 /* SKP_Silk_gain_quant.c */; };
+		A96979C623546F20004ECEF7 /* SKP_Silk_A2NLSF_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978CA23546F20004ECEF7 /* SKP_Silk_A2NLSF_arm.S */; };
+		A96979C723546F20004ECEF7 /* SKP_Silk_A2NLSF_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978CA23546F20004ECEF7 /* SKP_Silk_A2NLSF_arm.S */; };
+		A96979C823546F20004ECEF7 /* SKP_Silk_MA_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978CB23546F20004ECEF7 /* SKP_Silk_MA_arm.S */; };
+		A96979C923546F20004ECEF7 /* SKP_Silk_MA_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978CB23546F20004ECEF7 /* SKP_Silk_MA_arm.S */; };
+		A96979CA23546F20004ECEF7 /* SKP_Silk_encode_parameters.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978CC23546F20004ECEF7 /* SKP_Silk_encode_parameters.c */; };
+		A96979CB23546F20004ECEF7 /* SKP_Silk_encode_parameters.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978CC23546F20004ECEF7 /* SKP_Silk_encode_parameters.c */; };
+		A96979CC23546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978CD23546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1_arm.S */; };
+		A96979CD23546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978CD23546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1_arm.S */; };
+		A96979CE23546F20004ECEF7 /* SKP_Silk_A2NLSF.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978CE23546F20004ECEF7 /* SKP_Silk_A2NLSF.c */; };
+		A96979CF23546F20004ECEF7 /* SKP_Silk_A2NLSF.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978CE23546F20004ECEF7 /* SKP_Silk_A2NLSF.c */; };
+		A96979D023546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_16.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978CF23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_16.c */; };
+		A96979D123546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_16.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978CF23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_16.c */; };
+		A96979D223546F20004ECEF7 /* SKP_Silk_prefilter_FIX_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978D023546F20004ECEF7 /* SKP_Silk_prefilter_FIX_arm.S */; };
+		A96979D323546F20004ECEF7 /* SKP_Silk_prefilter_FIX_arm.S in Sources */ = {isa = PBXBuildFile; fileRef = A96978D023546F20004ECEF7 /* SKP_Silk_prefilter_FIX_arm.S */; };
+		A96979D423546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D123546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4.c */; };
+		A96979D523546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D123546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4.c */; };
+		A96979D623546F20004ECEF7 /* SKP_Silk_NSQ.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D223546F20004ECEF7 /* SKP_Silk_NSQ.c */; };
+		A96979D723546F20004ECEF7 /* SKP_Silk_NSQ.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D223546F20004ECEF7 /* SKP_Silk_NSQ.c */; };
+		A96979D823546F20004ECEF7 /* SKP_Silk_burg_modified.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D323546F20004ECEF7 /* SKP_Silk_burg_modified.c */; };
+		A96979D923546F20004ECEF7 /* SKP_Silk_burg_modified.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D323546F20004ECEF7 /* SKP_Silk_burg_modified.c */; };
+		A96979DA23546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D423546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR.c */; };
+		A96979DB23546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D423546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR.c */; };
+		A96979DC23546F20004ECEF7 /* SKP_Silk_decode_pulses.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D523546F20004ECEF7 /* SKP_Silk_decode_pulses.c */; };
+		A96979DD23546F20004ECEF7 /* SKP_Silk_decode_pulses.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D523546F20004ECEF7 /* SKP_Silk_decode_pulses.c */; };
+		A96979DE23546F20004ECEF7 /* SKP_Silk_LTP_scale_ctrl_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D723546F20004ECEF7 /* SKP_Silk_LTP_scale_ctrl_FIX.c */; };
+		A96979DF23546F20004ECEF7 /* SKP_Silk_LTP_scale_ctrl_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D723546F20004ECEF7 /* SKP_Silk_LTP_scale_ctrl_FIX.c */; };
+		A96979E023546F20004ECEF7 /* SKP_Silk_LPC_synthesis_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D823546F20004ECEF7 /* SKP_Silk_LPC_synthesis_filter.c */; };
+		A96979E123546F20004ECEF7 /* SKP_Silk_LPC_synthesis_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D823546F20004ECEF7 /* SKP_Silk_LPC_synthesis_filter.c */; };
+		A96979E223546F20004ECEF7 /* SKP_Silk_schur64.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D923546F20004ECEF7 /* SKP_Silk_schur64.c */; };
+		A96979E323546F20004ECEF7 /* SKP_Silk_schur64.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978D923546F20004ECEF7 /* SKP_Silk_schur64.c */; };
+		A96979E423546F20004ECEF7 /* SKP_Silk_decoder_set_fs.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978DA23546F20004ECEF7 /* SKP_Silk_decoder_set_fs.c */; };
+		A96979E523546F20004ECEF7 /* SKP_Silk_decoder_set_fs.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978DA23546F20004ECEF7 /* SKP_Silk_decoder_set_fs.c */; };
+		A96979E623546F20004ECEF7 /* SKP_Silk_residual_energy_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978DB23546F20004ECEF7 /* SKP_Silk_residual_energy_FIX.c */; };
+		A96979E723546F20004ECEF7 /* SKP_Silk_residual_energy_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A96978DB23546F20004ECEF7 /* SKP_Silk_residual_energy_FIX.c */; };
+		A9EAD8ED22DEF18800013773 /* AGR_BWE_find_HB_LPC_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A9EAD83822DEF18800013773 /* AGR_BWE_find_HB_LPC_FIX.c */; };
+		A9EAD8EE22DEF18800013773 /* AGR_BWE_encode_frame_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A9EAD83922DEF18800013773 /* AGR_BWE_encode_frame_FIX.c */; };
+		A9EAD8EF22DEF18800013773 /* AGR_BWE_SDK_API.c in Sources */ = {isa = PBXBuildFile; fileRef = A9EAD83A22DEF18800013773 /* AGR_BWE_SDK_API.c */; };
+		A9EAD8F022DEF18800013773 /* AGR_BWE_tables_qmf.c in Sources */ = {isa = PBXBuildFile; fileRef = A9EAD83B22DEF18800013773 /* AGR_BWE_tables_qmf.c */; };
+		A9EAD8F122DEF18800013773 /* AGR_BWE_LPC_synthesizer.c in Sources */ = {isa = PBXBuildFile; fileRef = A9EAD83C22DEF18800013773 /* AGR_BWE_LPC_synthesizer.c */; };
+		A9EAD8F222DEF18800013773 /* AGR_BWE_bits.c in Sources */ = {isa = PBXBuildFile; fileRef = A9EAD83E22DEF18800013773 /* AGR_BWE_bits.c */; };
+		A9EAD8F322DEF18800013773 /* AGR_BWE_quant_highband.c in Sources */ = {isa = PBXBuildFile; fileRef = A9EAD84022DEF18800013773 /* AGR_BWE_quant_highband.c */; };
+		A9EAD8F522DEF18800013773 /* AGR_BWE_init.c in Sources */ = {isa = PBXBuildFile; fileRef = A9EAD84222DEF18800013773 /* AGR_BWE_init.c */; };
+		A9EAD8F722DEF18800013773 /* AGR_BWE_tables_highband_coeff.c in Sources */ = {isa = PBXBuildFile; fileRef = A9EAD84422DEF18800013773 /* AGR_BWE_tables_highband_coeff.c */; };
+		A9EAD8FF22DEF18800013773 /* AGR_BWE_qmf.c in Sources */ = {isa = PBXBuildFile; fileRef = A9EAD84F22DEF18800013773 /* AGR_BWE_qmf.c */; };
+		A9EAD90122DEF18800013773 /* AGR_BWE_decode_frame_FIX.c in Sources */ = {isa = PBXBuildFile; fileRef = A9EAD85122DEF18800013773 /* AGR_BWE_decode_frame_FIX.c */; };
+		F906DA761EE4426E00E945F8 /* libJC1Codec_ARM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F906DA6A1EE4426E00E945F8 /* libJC1Codec_ARM.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F906DA771EE4426E00E945F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F906DA621EE4426E00E945F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F906DA691EE4426E00E945F8;
+			remoteInfo = JC1Codec_ARM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F906DA681EE4426E00E945F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A969783E23546F20004ECEF7 /* SKP_Silk_interpolate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_interpolate.c; sourceTree = "<group>"; };
+		A969783F23546F20004ECEF7 /* SKP_Silk_corrMatrix_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_corrMatrix_FIX.c; sourceTree = "<group>"; };
+		A969784023546F20004ECEF7 /* SKP_Silk_biquad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_biquad.c; sourceTree = "<group>"; };
+		A969784123546F20004ECEF7 /* SKP_Silk_resampler_private_AR2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_resampler_private_AR2.c; sourceTree = "<group>"; };
+		A969784223546F20004ECEF7 /* SKP_Silk_tables_type_offset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_tables_type_offset.c; sourceTree = "<group>"; };
+		A969784323546F20004ECEF7 /* SKP_Silk_common_pitch_est_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_common_pitch_est_defines.h; sourceTree = "<group>"; };
+		A969784423546F20004ECEF7 /* SKP_Silk_resampler_down2_3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_resampler_down2_3.c; sourceTree = "<group>"; };
+		A969784523546F20004ECEF7 /* SKP_Silk_find_pred_coefs_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_find_pred_coefs_FIX.c; sourceTree = "<group>"; };
+		A969784623546F20004ECEF7 /* SKP_Silk_VQ_nearest_neighbor_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_VQ_nearest_neighbor_FIX.c; sourceTree = "<group>"; };
+		A969784723546F20004ECEF7 /* SKP_Silk_quant_LTP_gains_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_quant_LTP_gains_FIX.c; sourceTree = "<group>"; };
+		A969784823546F20004ECEF7 /* SKP_Silk_init_encoder_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_init_encoder_FIX.c; sourceTree = "<group>"; };
+		A969784923546F20004ECEF7 /* SKP_Silk_bwexpander_32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_bwexpander_32.c; sourceTree = "<group>"; };
+		A969784A23546F20004ECEF7 /* SKP_Silk_CNG.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_CNG.c; sourceTree = "<group>"; };
+		A969784B23546F20004ECEF7 /* SKP_Silk_LSF_cos_table.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_LSF_cos_table.c; sourceTree = "<group>"; };
+		A969784C23546F20004ECEF7 /* SKP_Silk_resampler_rom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_resampler_rom.c; sourceTree = "<group>"; };
+		A969784D23546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_resampler_private_up2_HQ_arm.S; sourceTree = "<group>"; };
+		A969784E23546F20004ECEF7 /* SKP_Silk_autocorr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_autocorr.c; sourceTree = "<group>"; };
+		A969784F23546F20004ECEF7 /* SKP_Silk_dec_API.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_dec_API.c; sourceTree = "<group>"; };
+		A969785023546F20004ECEF7 /* SKP_Silk_macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_macros.h; sourceTree = "<group>"; };
+		A969785123546F20004ECEF7 /* Agora_SILK_func.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Agora_SILK_func.c; sourceTree = "<group>"; };
+		A969785223546F20004ECEF7 /* SKP_Silk_noise_shape_analysis_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_noise_shape_analysis_FIX.c; sourceTree = "<group>"; };
+		A969785323546F20004ECEF7 /* SKP_Silk_sum_sqr_shift_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_sum_sqr_shift_arm.S; sourceTree = "<group>"; };
+		A969785423546F20004ECEF7 /* SKP_Silk_main_FIX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_main_FIX.h; sourceTree = "<group>"; };
+		A969785523546F20004ECEF7 /* SKP_Silk_residual_energy16_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_residual_energy16_FIX.c; sourceTree = "<group>"; };
+		A969785623546F20004ECEF7 /* SKP_Silk_resampler_structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_resampler_structs.h; sourceTree = "<group>"; };
+		A969785723546F20004ECEF7 /* SKP_Silk_apply_sine_window.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_apply_sine_window.c; sourceTree = "<group>"; };
+		A969785823546F20004ECEF7 /* SKP_Silk_resampler_up2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_resampler_up2.c; sourceTree = "<group>"; };
+		A969785923546F20004ECEF7 /* SKP_Silk_resampler_up2_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_resampler_up2_arm.S; sourceTree = "<group>"; };
+		A969785A23546F20004ECEF7 /* SKP_Silk_solve_LS_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_solve_LS_FIX.c; sourceTree = "<group>"; };
+		A969785B23546F20004ECEF7 /* SKP_Silk_VAD.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_VAD.c; sourceTree = "<group>"; };
+		A969785C23546F20004ECEF7 /* SKP_Silk_sigm_Q15_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_sigm_Q15_arm.S; sourceTree = "<group>"; };
+		A969785D23546F20004ECEF7 /* SKP_Silk_NLSF2A_stable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_NLSF2A_stable.c; sourceTree = "<group>"; };
+		A969785E23546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_NLSF_VQ_sum_error_FIX_arm.S; sourceTree = "<group>"; };
+		A969785F23546F20004ECEF7 /* SKP_Silk_shell_coder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_shell_coder.c; sourceTree = "<group>"; };
+		A969786023546F20004ECEF7 /* SKP_Silk_schur64_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_schur64_arm.S; sourceTree = "<group>"; };
+		A969786123546F20004ECEF7 /* SKP_Silk_inner_prod_aligned.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_inner_prod_aligned.c; sourceTree = "<group>"; };
+		A969786223546F20004ECEF7 /* SKP_Silk_MA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_MA.c; sourceTree = "<group>"; };
+		A969786323546F20004ECEF7 /* SKP_Silk_range_coder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_range_coder.c; sourceTree = "<group>"; };
+		A969786423546F20004ECEF7 /* SKP_Silk_control_codec_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_control_codec_FIX.c; sourceTree = "<group>"; };
+		A969786523546F20004ECEF7 /* SKP_Silk_k2a.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_k2a.c; sourceTree = "<group>"; };
+		A969786623546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_NLSF_VQ_sum_error_FIX.c; sourceTree = "<group>"; };
+		A969786723546F20004ECEF7 /* SKP_Silk_tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_tables.h; sourceTree = "<group>"; };
+		A969786823546F20004ECEF7 /* SKP_Silk_find_LPC_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_find_LPC_FIX.c; sourceTree = "<group>"; };
+		A969786923546F20004ECEF7 /* SKP_Silk_clz_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_clz_arm.S; sourceTree = "<group>"; };
+		A969786A23546F20004ECEF7 /* SKP_Silk_tables_gain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_tables_gain.c; sourceTree = "<group>"; };
+		A969786B23546F20004ECEF7 /* SKP_Silk_sigm_Q15.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_sigm_Q15.c; sourceTree = "<group>"; };
+		A969786C23546F20004ECEF7 /* SKP_Silk_NLSF_stabilize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_NLSF_stabilize.c; sourceTree = "<group>"; };
+		A969786D23546F20004ECEF7 /* SKP_Silk_macros_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_macros_arm.h; sourceTree = "<group>"; };
+		A969786E23546F20004ECEF7 /* SKP_Silk_encode_pulses.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_encode_pulses.c; sourceTree = "<group>"; };
+		A969786F23546F20004ECEF7 /* SKP_Silk_process_NLSFs_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_process_NLSFs_FIX.c; sourceTree = "<group>"; };
+		A969787023546F20004ECEF7 /* SKP_Silk_biquad_alt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_biquad_alt.c; sourceTree = "<group>"; };
+		A969787123546F20004ECEF7 /* SKP_Silk_tables_LTP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_tables_LTP.c; sourceTree = "<group>"; };
+		A969787223546F20004ECEF7 /* SKP_Silk_schur.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_schur.c; sourceTree = "<group>"; };
+		A969787323546F20004ECEF7 /* SKP_Silk_sum_sqr_shift.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_sum_sqr_shift.c; sourceTree = "<group>"; };
+		A969787423546F20004ECEF7 /* SKP_Silk_tables_pitch_lag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_tables_pitch_lag.c; sourceTree = "<group>"; };
+		A969787523546F20004ECEF7 /* SKP_Silk_pitch_est_tables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_pitch_est_tables.c; sourceTree = "<group>"; };
+		A969787623546F20004ECEF7 /* SKP_Silk_process_gains_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_process_gains_FIX.c; sourceTree = "<group>"; };
+		A969787723546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_tables_NLSF_CB0_16.h; sourceTree = "<group>"; };
+		A969787823546F20004ECEF7 /* SKP_Silk_resampler_private_up4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_resampler_private_up4.c; sourceTree = "<group>"; };
+		A969787923546F20004ECEF7 /* SKP_Silk_NLSF2A.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_NLSF2A.c; sourceTree = "<group>"; };
+		A969787A23546F20004ECEF7 /* SKP_Silk_decode_core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_decode_core.c; sourceTree = "<group>"; };
+		A969787B23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_10.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_tables_NLSF_CB0_10.c; sourceTree = "<group>"; };
+		A969787C23546F20004ECEF7 /* SKP_Silk_AsmPreproc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_AsmPreproc.h; sourceTree = "<group>"; };
+		A969787D23546F20004ECEF7 /* SKP_Silk_find_pitch_lags_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_find_pitch_lags_FIX.c; sourceTree = "<group>"; };
+		A969787E23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_10.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_tables_NLSF_CB1_10.c; sourceTree = "<group>"; };
+		A969787F23546F20004ECEF7 /* SKP_Silk_bwexpander.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_bwexpander.c; sourceTree = "<group>"; };
+		A969788023546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_resampler_private_ARMA4_arm.S; sourceTree = "<group>"; };
+		A969788123546F20004ECEF7 /* SKP_Silk_NSQ_del_dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_NSQ_del_dec.c; sourceTree = "<group>"; };
+		A969788223546F20004ECEF7 /* SKP_Silk_inner_prod_aligned_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_inner_prod_aligned_arm.S; sourceTree = "<group>"; };
+		A969788323546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_tables_NLSF_CB1_16.h; sourceTree = "<group>"; };
+		A969788423546F20004ECEF7 /* SKP_Silk_resampler_private_AR2_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_resampler_private_AR2_arm.S; sourceTree = "<group>"; };
+		A969788523546F20004ECEF7 /* SKP_Silk_resampler_private_copy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_resampler_private_copy.c; sourceTree = "<group>"; };
+		A969788623546F20004ECEF7 /* SKP_Silk_div_oabi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_div_oabi.c; sourceTree = "<group>"; };
+		A969788723546F20004ECEF7 /* SKP_Silk_tables_pulses_per_block.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_tables_pulses_per_block.c; sourceTree = "<group>"; };
+		A969788823546F20004ECEF7 /* SKP_Silk_code_signs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_code_signs.c; sourceTree = "<group>"; };
+		A969788923546F20004ECEF7 /* SKP_Silk_control_audio_bandwidth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_control_audio_bandwidth.c; sourceTree = "<group>"; };
+		A969788A23546F20004ECEF7 /* SKP_Silk_lin2log_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_lin2log_arm.S; sourceTree = "<group>"; };
+		A969788B23546F20004ECEF7 /* SKP_Silk_resampler_rom_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_resampler_rom_arm.S; sourceTree = "<group>"; };
+		A969788C23546F20004ECEF7 /* SKP_Silk_structs_FIX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_structs_FIX.h; sourceTree = "<group>"; };
+		A969788D23546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_NLSF_MSVQ_decode.c; sourceTree = "<group>"; };
+		A969788E23546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_resampler_private_IIR_FIR_arm.S; sourceTree = "<group>"; };
+		A969788F23546F20004ECEF7 /* SKP_Silk_PLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_PLC.h; sourceTree = "<group>"; };
+		A969789023546F20004ECEF7 /* SKP_Silk_prefilter_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_prefilter_FIX.c; sourceTree = "<group>"; };
+		A969789123546F20004ECEF7 /* SKP_Silk_resampler_down3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_resampler_down3.c; sourceTree = "<group>"; };
+		A969789223546F20004ECEF7 /* SKP_Silk_AsmHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_AsmHelper.h; sourceTree = "<group>"; };
+		A969789323546F20004ECEF7 /* SKP_Silk_tables_other.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_tables_other.c; sourceTree = "<group>"; };
+		A969789423546F20004ECEF7 /* SKP_Silk_resampler_private_down4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_resampler_private_down4.c; sourceTree = "<group>"; };
+		A969789523546F20004ECEF7 /* SKP_Silk_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_main.h; sourceTree = "<group>"; };
+		A969789623546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_resampler_private_down_FIR_arm.S; sourceTree = "<group>"; };
+		A969789723546F20004ECEF7 /* SKP_Silk_resampler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_resampler.c; sourceTree = "<group>"; };
+		A969789823546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_warped_autocorrelation_FIX.c; sourceTree = "<group>"; };
+		A969789923546F20004ECEF7 /* SKP_Silk_NLSF_VQ_rate_distortion_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_NLSF_VQ_rate_distortion_FIX.c; sourceTree = "<group>"; };
+		A969789A23546F20004ECEF7 /* SKP_Silk_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_define.h; sourceTree = "<group>"; };
+		A969789B23546F20004ECEF7 /* SKP_Silk_encode_frame_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_encode_frame_FIX.c; sourceTree = "<group>"; };
+		A969789C23546F20004ECEF7 /* SKP_Silk_regularize_correlations_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_regularize_correlations_FIX.c; sourceTree = "<group>"; };
+		A969789D23546F20004ECEF7 /* SKP_Silk_resampler_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_resampler_rom.h; sourceTree = "<group>"; };
+		A969789E23546F20004ECEF7 /* SKP_Silk_lin2log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_lin2log.c; sourceTree = "<group>"; };
+		A969789F23546F20004ECEF7 /* SKP_Silk_tables_sign.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_tables_sign.c; sourceTree = "<group>"; };
+		A96978A023546F20004ECEF7 /* SKP_Silk_array_maxabs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_array_maxabs.c; sourceTree = "<group>"; };
+		A96978A123546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_encode_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_NLSF_MSVQ_encode_FIX.c; sourceTree = "<group>"; };
+		A96978A223546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_warped_autocorrelation_FIX_arm.S; sourceTree = "<group>"; };
+		A96978A323546F20004ECEF7 /* SKP_Silk_find_LTP_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_find_LTP_FIX.c; sourceTree = "<group>"; };
+		A96978A423546F20004ECEF7 /* SKP_Silk_SigProc_FIX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_SigProc_FIX.h; sourceTree = "<group>"; };
+		A96978A523546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_resampler_private_up2_HQ.c; sourceTree = "<group>"; };
+		A96978A623546F20004ECEF7 /* SKP_Silk_allpass_int_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_allpass_int_arm.S; sourceTree = "<group>"; };
+		A96978A723546F20004ECEF7 /* SKP_Silk_setup_complexity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_setup_complexity.h; sourceTree = "<group>"; };
+		A96978A823546F20004ECEF7 /* SKP_Silk_decode_core_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_decode_core_arm.S; sourceTree = "<group>"; };
+		A96978A923546F20004ECEF7 /* SKP_Silk_LBRR_reset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_LBRR_reset.c; sourceTree = "<group>"; };
+		A96978AA23546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_resampler_private_down_FIR.c; sourceTree = "<group>"; };
+		A96978AB23546F20004ECEF7 /* SKP_Silk_scale_vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_scale_vector.c; sourceTree = "<group>"; };
+		A96978AC23546F20004ECEF7 /* SKP_Silk_tuning_parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_tuning_parameters.h; sourceTree = "<group>"; };
+		A96978AD23546F20004ECEF7 /* SKP_Silk_LPC_inv_pred_gain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_LPC_inv_pred_gain.c; sourceTree = "<group>"; };
+		A96978AE23546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_ana_filt_bank_1.c; sourceTree = "<group>"; };
+		A96978AF23546F20004ECEF7 /* SKP_Silk_LPC_synthesis_order16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_LPC_synthesis_order16.c; sourceTree = "<group>"; };
+		A96978B023546F20004ECEF7 /* SKP_Silk_resampler_down2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_resampler_down2.c; sourceTree = "<group>"; };
+		A96978B123546F20004ECEF7 /* SKP_Silk_decode_pitch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_decode_pitch.c; sourceTree = "<group>"; };
+		A96978B223546F20004ECEF7 /* SKP_Silk_detect_SWB_input.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_detect_SWB_input.c; sourceTree = "<group>"; };
+		A96978B323546F20004ECEF7 /* SKP_Silk_array_maxabs_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_array_maxabs_arm.S; sourceTree = "<group>"; };
+		A96978B423546F20004ECEF7 /* SKP_Silk_k2a_Q16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_k2a_Q16.c; sourceTree = "<group>"; };
+		A96978B523546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_tables_NLSF_CB0_10.h; sourceTree = "<group>"; };
+		A96978B623546F20004ECEF7 /* SKP_Silk_pitch_analysis_core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_pitch_analysis_core.c; sourceTree = "<group>"; };
+		A96978B723546F20004ECEF7 /* SKP_Silk_LTP_analysis_filter_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_LTP_analysis_filter_FIX.c; sourceTree = "<group>"; };
+		A96978B823546F20004ECEF7 /* SKP_Silk_resampler_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_resampler_private.h; sourceTree = "<group>"; };
+		A96978B923546F20004ECEF7 /* SKP_Silk_sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_sort.c; sourceTree = "<group>"; };
+		A96978BA23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_tables_NLSF_CB0_16.c; sourceTree = "<group>"; };
+		A96978BB23546F20004ECEF7 /* SKP_Silk_Inlines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_Inlines.h; sourceTree = "<group>"; };
+		A96978BC23546F20004ECEF7 /* SKP_Silk_structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_structs.h; sourceTree = "<group>"; };
+		A96978BD23546F20004ECEF7 /* SKP_Silk_scale_copy_vector16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_scale_copy_vector16.c; sourceTree = "<group>"; };
+		A96978BE23546F20004ECEF7 /* SKP_Silk_log2lin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_log2lin.c; sourceTree = "<group>"; };
+		A96978BF23546F20004ECEF7 /* SKP_Silk_decode_frame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_decode_frame.c; sourceTree = "<group>"; };
+		A96978C023546F20004ECEF7 /* SKP_Silk_HP_variable_cutoff_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_HP_variable_cutoff_FIX.c; sourceTree = "<group>"; };
+		A96978C123546F20004ECEF7 /* SKP_Silk_decode_parameters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_decode_parameters.c; sourceTree = "<group>"; };
+		A96978C223546F20004ECEF7 /* SKP_Silk_create_init_destroy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_create_init_destroy.c; sourceTree = "<group>"; };
+		A96978C323546F20004ECEF7 /* SKP_Silk_PLC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_PLC.c; sourceTree = "<group>"; };
+		A96978C423546F20004ECEF7 /* SKP_Silk_LP_variable_cutoff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_LP_variable_cutoff.c; sourceTree = "<group>"; };
+		A96978C523546F20004ECEF7 /* SKP_Silk_enc_API.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_enc_API.c; sourceTree = "<group>"; };
+		A96978C623546F20004ECEF7 /* SKP_Silk_pitch_est_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_pitch_est_defines.h; sourceTree = "<group>"; };
+		A96978C723546F20004ECEF7 /* SKP_Silk_NLSF_VQ_weights_laroia.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_NLSF_VQ_weights_laroia.c; sourceTree = "<group>"; };
+		A96978C823546F20004ECEF7 /* SKP_Silk_resampler_down2_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_resampler_down2_arm.S; sourceTree = "<group>"; };
+		A96978C923546F20004ECEF7 /* SKP_Silk_gain_quant.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_gain_quant.c; sourceTree = "<group>"; };
+		A96978CA23546F20004ECEF7 /* SKP_Silk_A2NLSF_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_A2NLSF_arm.S; sourceTree = "<group>"; };
+		A96978CB23546F20004ECEF7 /* SKP_Silk_MA_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_MA_arm.S; sourceTree = "<group>"; };
+		A96978CC23546F20004ECEF7 /* SKP_Silk_encode_parameters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_encode_parameters.c; sourceTree = "<group>"; };
+		A96978CD23546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_ana_filt_bank_1_arm.S; sourceTree = "<group>"; };
+		A96978CE23546F20004ECEF7 /* SKP_Silk_A2NLSF.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_A2NLSF.c; sourceTree = "<group>"; };
+		A96978CF23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_tables_NLSF_CB1_16.c; sourceTree = "<group>"; };
+		A96978D023546F20004ECEF7 /* SKP_Silk_prefilter_FIX_arm.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = SKP_Silk_prefilter_FIX_arm.S; sourceTree = "<group>"; };
+		A96978D123546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_resampler_private_ARMA4.c; sourceTree = "<group>"; };
+		A96978D223546F20004ECEF7 /* SKP_Silk_NSQ.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_NSQ.c; sourceTree = "<group>"; };
+		A96978D323546F20004ECEF7 /* SKP_Silk_burg_modified.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_burg_modified.c; sourceTree = "<group>"; };
+		A96978D423546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_resampler_private_IIR_FIR.c; sourceTree = "<group>"; };
+		A96978D523546F20004ECEF7 /* SKP_Silk_decode_pulses.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_decode_pulses.c; sourceTree = "<group>"; };
+		A96978D623546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_tables_NLSF_CB1_10.h; sourceTree = "<group>"; };
+		A96978D723546F20004ECEF7 /* SKP_Silk_LTP_scale_ctrl_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_LTP_scale_ctrl_FIX.c; sourceTree = "<group>"; };
+		A96978D823546F20004ECEF7 /* SKP_Silk_LPC_synthesis_filter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_LPC_synthesis_filter.c; sourceTree = "<group>"; };
+		A96978D923546F20004ECEF7 /* SKP_Silk_schur64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_schur64.c; sourceTree = "<group>"; };
+		A96978DA23546F20004ECEF7 /* SKP_Silk_decoder_set_fs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_decoder_set_fs.c; sourceTree = "<group>"; };
+		A96978DB23546F20004ECEF7 /* SKP_Silk_residual_energy_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SKP_Silk_residual_energy_FIX.c; sourceTree = "<group>"; };
+		A9EAD83822DEF18800013773 /* AGR_BWE_find_HB_LPC_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AGR_BWE_find_HB_LPC_FIX.c; sourceTree = "<group>"; };
+		A9EAD83922DEF18800013773 /* AGR_BWE_encode_frame_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AGR_BWE_encode_frame_FIX.c; sourceTree = "<group>"; };
+		A9EAD83A22DEF18800013773 /* AGR_BWE_SDK_API.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AGR_BWE_SDK_API.c; sourceTree = "<group>"; };
+		A9EAD83B22DEF18800013773 /* AGR_BWE_tables_qmf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AGR_BWE_tables_qmf.c; sourceTree = "<group>"; };
+		A9EAD83C22DEF18800013773 /* AGR_BWE_LPC_synthesizer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AGR_BWE_LPC_synthesizer.c; sourceTree = "<group>"; };
+		A9EAD83D22DEF18800013773 /* AGR_BWE_fixed_generic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGR_BWE_fixed_generic.h; sourceTree = "<group>"; };
+		A9EAD83E22DEF18800013773 /* AGR_BWE_bits.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AGR_BWE_bits.c; sourceTree = "<group>"; };
+		A9EAD83F22DEF18800013773 /* AGR_BWE_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGR_BWE_defines.h; sourceTree = "<group>"; };
+		A9EAD84022DEF18800013773 /* AGR_BWE_quant_highband.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AGR_BWE_quant_highband.c; sourceTree = "<group>"; };
+		A9EAD84222DEF18800013773 /* AGR_BWE_init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AGR_BWE_init.c; sourceTree = "<group>"; };
+		A9EAD84422DEF18800013773 /* AGR_BWE_tables_highband_coeff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AGR_BWE_tables_highband_coeff.c; sourceTree = "<group>"; };
+		A9EAD84522DEF18800013773 /* AGR_BWE_bits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGR_BWE_bits.h; sourceTree = "<group>"; };
+		A9EAD84722DEF18800013773 /* AGR_BWE_arch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGR_BWE_arch.h; sourceTree = "<group>"; };
+		A9EAD84B22DEF18800013773 /* AGR_BWE_tables_qmf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGR_BWE_tables_qmf.h; sourceTree = "<group>"; };
+		A9EAD84F22DEF18800013773 /* AGR_BWE_qmf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AGR_BWE_qmf.c; sourceTree = "<group>"; };
+		A9EAD85122DEF18800013773 /* AGR_BWE_decode_frame_FIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AGR_BWE_decode_frame_FIX.c; sourceTree = "<group>"; };
+		A9EAD85222DEF18800013773 /* AGR_BWE_main_FIX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGR_BWE_main_FIX.h; sourceTree = "<group>"; };
+		A9EAD85322DEF18800013773 /* AGR_BWE_structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGR_BWE_structs.h; sourceTree = "<group>"; };
+		A9EAD85422DEF18800013773 /* AGR_BWE_tables_highband_coeff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGR_BWE_tables_highband_coeff.h; sourceTree = "<group>"; };
+		F906DA6A1EE4426E00E945F8 /* libJC1Codec_ARM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJC1Codec_ARM.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F906DA751EE4426E00E945F8 /* JC1Codec_ARMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JC1Codec_ARMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F906DA671EE4426E00E945F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F906DA721EE4426E00E945F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F906DA761EE4426E00E945F8 /* libJC1Codec_ARM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A969783D23546F20004ECEF7 /* libSATECodec */ = {
+			isa = PBXGroup;
+			children = (
+				A969783E23546F20004ECEF7 /* SKP_Silk_interpolate.c */,
+				A969783F23546F20004ECEF7 /* SKP_Silk_corrMatrix_FIX.c */,
+				A969784023546F20004ECEF7 /* SKP_Silk_biquad.c */,
+				A969784123546F20004ECEF7 /* SKP_Silk_resampler_private_AR2.c */,
+				A969784223546F20004ECEF7 /* SKP_Silk_tables_type_offset.c */,
+				A969784323546F20004ECEF7 /* SKP_Silk_common_pitch_est_defines.h */,
+				A969784423546F20004ECEF7 /* SKP_Silk_resampler_down2_3.c */,
+				A969784523546F20004ECEF7 /* SKP_Silk_find_pred_coefs_FIX.c */,
+				A969784623546F20004ECEF7 /* SKP_Silk_VQ_nearest_neighbor_FIX.c */,
+				A969784723546F20004ECEF7 /* SKP_Silk_quant_LTP_gains_FIX.c */,
+				A969784823546F20004ECEF7 /* SKP_Silk_init_encoder_FIX.c */,
+				A969784923546F20004ECEF7 /* SKP_Silk_bwexpander_32.c */,
+				A969784A23546F20004ECEF7 /* SKP_Silk_CNG.c */,
+				A969784B23546F20004ECEF7 /* SKP_Silk_LSF_cos_table.c */,
+				A969784C23546F20004ECEF7 /* SKP_Silk_resampler_rom.c */,
+				A969784D23546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ_arm.S */,
+				A969784E23546F20004ECEF7 /* SKP_Silk_autocorr.c */,
+				A969784F23546F20004ECEF7 /* SKP_Silk_dec_API.c */,
+				A969785023546F20004ECEF7 /* SKP_Silk_macros.h */,
+				A969785123546F20004ECEF7 /* Agora_SILK_func.c */,
+				A969785223546F20004ECEF7 /* SKP_Silk_noise_shape_analysis_FIX.c */,
+				A969785323546F20004ECEF7 /* SKP_Silk_sum_sqr_shift_arm.S */,
+				A969785423546F20004ECEF7 /* SKP_Silk_main_FIX.h */,
+				A969785523546F20004ECEF7 /* SKP_Silk_residual_energy16_FIX.c */,
+				A969785623546F20004ECEF7 /* SKP_Silk_resampler_structs.h */,
+				A969785723546F20004ECEF7 /* SKP_Silk_apply_sine_window.c */,
+				A969785823546F20004ECEF7 /* SKP_Silk_resampler_up2.c */,
+				A969785923546F20004ECEF7 /* SKP_Silk_resampler_up2_arm.S */,
+				A969785A23546F20004ECEF7 /* SKP_Silk_solve_LS_FIX.c */,
+				A969785B23546F20004ECEF7 /* SKP_Silk_VAD.c */,
+				A969785C23546F20004ECEF7 /* SKP_Silk_sigm_Q15_arm.S */,
+				A969785D23546F20004ECEF7 /* SKP_Silk_NLSF2A_stable.c */,
+				A969785E23546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX_arm.S */,
+				A969785F23546F20004ECEF7 /* SKP_Silk_shell_coder.c */,
+				A969786023546F20004ECEF7 /* SKP_Silk_schur64_arm.S */,
+				A969786123546F20004ECEF7 /* SKP_Silk_inner_prod_aligned.c */,
+				A969786223546F20004ECEF7 /* SKP_Silk_MA.c */,
+				A969786323546F20004ECEF7 /* SKP_Silk_range_coder.c */,
+				A969786423546F20004ECEF7 /* SKP_Silk_control_codec_FIX.c */,
+				A969786523546F20004ECEF7 /* SKP_Silk_k2a.c */,
+				A969786623546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX.c */,
+				A969786723546F20004ECEF7 /* SKP_Silk_tables.h */,
+				A969786823546F20004ECEF7 /* SKP_Silk_find_LPC_FIX.c */,
+				A969786923546F20004ECEF7 /* SKP_Silk_clz_arm.S */,
+				A969786A23546F20004ECEF7 /* SKP_Silk_tables_gain.c */,
+				A969786B23546F20004ECEF7 /* SKP_Silk_sigm_Q15.c */,
+				A969786C23546F20004ECEF7 /* SKP_Silk_NLSF_stabilize.c */,
+				A969786D23546F20004ECEF7 /* SKP_Silk_macros_arm.h */,
+				A969786E23546F20004ECEF7 /* SKP_Silk_encode_pulses.c */,
+				A969786F23546F20004ECEF7 /* SKP_Silk_process_NLSFs_FIX.c */,
+				A969787023546F20004ECEF7 /* SKP_Silk_biquad_alt.c */,
+				A969787123546F20004ECEF7 /* SKP_Silk_tables_LTP.c */,
+				A969787223546F20004ECEF7 /* SKP_Silk_schur.c */,
+				A969787323546F20004ECEF7 /* SKP_Silk_sum_sqr_shift.c */,
+				A969787423546F20004ECEF7 /* SKP_Silk_tables_pitch_lag.c */,
+				A969787523546F20004ECEF7 /* SKP_Silk_pitch_est_tables.c */,
+				A969787623546F20004ECEF7 /* SKP_Silk_process_gains_FIX.c */,
+				A969787723546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_16.h */,
+				A969787823546F20004ECEF7 /* SKP_Silk_resampler_private_up4.c */,
+				A969787923546F20004ECEF7 /* SKP_Silk_NLSF2A.c */,
+				A969787A23546F20004ECEF7 /* SKP_Silk_decode_core.c */,
+				A969787B23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_10.c */,
+				A969787C23546F20004ECEF7 /* SKP_Silk_AsmPreproc.h */,
+				A969787D23546F20004ECEF7 /* SKP_Silk_find_pitch_lags_FIX.c */,
+				A969787E23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_10.c */,
+				A969787F23546F20004ECEF7 /* SKP_Silk_bwexpander.c */,
+				A969788023546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4_arm.S */,
+				A969788123546F20004ECEF7 /* SKP_Silk_NSQ_del_dec.c */,
+				A969788223546F20004ECEF7 /* SKP_Silk_inner_prod_aligned_arm.S */,
+				A969788323546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_16.h */,
+				A969788423546F20004ECEF7 /* SKP_Silk_resampler_private_AR2_arm.S */,
+				A969788523546F20004ECEF7 /* SKP_Silk_resampler_private_copy.c */,
+				A969788623546F20004ECEF7 /* SKP_Silk_div_oabi.c */,
+				A969788723546F20004ECEF7 /* SKP_Silk_tables_pulses_per_block.c */,
+				A969788823546F20004ECEF7 /* SKP_Silk_code_signs.c */,
+				A969788923546F20004ECEF7 /* SKP_Silk_control_audio_bandwidth.c */,
+				A969788A23546F20004ECEF7 /* SKP_Silk_lin2log_arm.S */,
+				A969788B23546F20004ECEF7 /* SKP_Silk_resampler_rom_arm.S */,
+				A969788C23546F20004ECEF7 /* SKP_Silk_structs_FIX.h */,
+				A969788D23546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_decode.c */,
+				A969788E23546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR_arm.S */,
+				A969788F23546F20004ECEF7 /* SKP_Silk_PLC.h */,
+				A969789023546F20004ECEF7 /* SKP_Silk_prefilter_FIX.c */,
+				A969789123546F20004ECEF7 /* SKP_Silk_resampler_down3.c */,
+				A969789223546F20004ECEF7 /* SKP_Silk_AsmHelper.h */,
+				A969789323546F20004ECEF7 /* SKP_Silk_tables_other.c */,
+				A969789423546F20004ECEF7 /* SKP_Silk_resampler_private_down4.c */,
+				A969789523546F20004ECEF7 /* SKP_Silk_main.h */,
+				A969789623546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR_arm.S */,
+				A969789723546F20004ECEF7 /* SKP_Silk_resampler.c */,
+				A969789823546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX.c */,
+				A969789923546F20004ECEF7 /* SKP_Silk_NLSF_VQ_rate_distortion_FIX.c */,
+				A969789A23546F20004ECEF7 /* SKP_Silk_define.h */,
+				A969789B23546F20004ECEF7 /* SKP_Silk_encode_frame_FIX.c */,
+				A969789C23546F20004ECEF7 /* SKP_Silk_regularize_correlations_FIX.c */,
+				A969789D23546F20004ECEF7 /* SKP_Silk_resampler_rom.h */,
+				A969789E23546F20004ECEF7 /* SKP_Silk_lin2log.c */,
+				A969789F23546F20004ECEF7 /* SKP_Silk_tables_sign.c */,
+				A96978A023546F20004ECEF7 /* SKP_Silk_array_maxabs.c */,
+				A96978A123546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_encode_FIX.c */,
+				A96978A223546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX_arm.S */,
+				A96978A323546F20004ECEF7 /* SKP_Silk_find_LTP_FIX.c */,
+				A96978A423546F20004ECEF7 /* SKP_Silk_SigProc_FIX.h */,
+				A96978A523546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ.c */,
+				A96978A623546F20004ECEF7 /* SKP_Silk_allpass_int_arm.S */,
+				A96978A723546F20004ECEF7 /* SKP_Silk_setup_complexity.h */,
+				A96978A823546F20004ECEF7 /* SKP_Silk_decode_core_arm.S */,
+				A96978A923546F20004ECEF7 /* SKP_Silk_LBRR_reset.c */,
+				A96978AA23546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR.c */,
+				A96978AB23546F20004ECEF7 /* SKP_Silk_scale_vector.c */,
+				A96978AC23546F20004ECEF7 /* SKP_Silk_tuning_parameters.h */,
+				A96978AD23546F20004ECEF7 /* SKP_Silk_LPC_inv_pred_gain.c */,
+				A96978AE23546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1.c */,
+				A96978AF23546F20004ECEF7 /* SKP_Silk_LPC_synthesis_order16.c */,
+				A96978B023546F20004ECEF7 /* SKP_Silk_resampler_down2.c */,
+				A96978B123546F20004ECEF7 /* SKP_Silk_decode_pitch.c */,
+				A96978B223546F20004ECEF7 /* SKP_Silk_detect_SWB_input.c */,
+				A96978B323546F20004ECEF7 /* SKP_Silk_array_maxabs_arm.S */,
+				A96978B423546F20004ECEF7 /* SKP_Silk_k2a_Q16.c */,
+				A96978B523546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_10.h */,
+				A96978B623546F20004ECEF7 /* SKP_Silk_pitch_analysis_core.c */,
+				A96978B723546F20004ECEF7 /* SKP_Silk_LTP_analysis_filter_FIX.c */,
+				A96978B823546F20004ECEF7 /* SKP_Silk_resampler_private.h */,
+				A96978B923546F20004ECEF7 /* SKP_Silk_sort.c */,
+				A96978BA23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_16.c */,
+				A96978BB23546F20004ECEF7 /* SKP_Silk_Inlines.h */,
+				A96978BC23546F20004ECEF7 /* SKP_Silk_structs.h */,
+				A96978BD23546F20004ECEF7 /* SKP_Silk_scale_copy_vector16.c */,
+				A96978BE23546F20004ECEF7 /* SKP_Silk_log2lin.c */,
+				A96978BF23546F20004ECEF7 /* SKP_Silk_decode_frame.c */,
+				A96978C023546F20004ECEF7 /* SKP_Silk_HP_variable_cutoff_FIX.c */,
+				A96978C123546F20004ECEF7 /* SKP_Silk_decode_parameters.c */,
+				A96978C223546F20004ECEF7 /* SKP_Silk_create_init_destroy.c */,
+				A96978C323546F20004ECEF7 /* SKP_Silk_PLC.c */,
+				A96978C423546F20004ECEF7 /* SKP_Silk_LP_variable_cutoff.c */,
+				A96978C523546F20004ECEF7 /* SKP_Silk_enc_API.c */,
+				A96978C623546F20004ECEF7 /* SKP_Silk_pitch_est_defines.h */,
+				A96978C723546F20004ECEF7 /* SKP_Silk_NLSF_VQ_weights_laroia.c */,
+				A96978C823546F20004ECEF7 /* SKP_Silk_resampler_down2_arm.S */,
+				A96978C923546F20004ECEF7 /* SKP_Silk_gain_quant.c */,
+				A96978CA23546F20004ECEF7 /* SKP_Silk_A2NLSF_arm.S */,
+				A96978CB23546F20004ECEF7 /* SKP_Silk_MA_arm.S */,
+				A96978CC23546F20004ECEF7 /* SKP_Silk_encode_parameters.c */,
+				A96978CD23546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1_arm.S */,
+				A96978CE23546F20004ECEF7 /* SKP_Silk_A2NLSF.c */,
+				A96978CF23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_16.c */,
+				A96978D023546F20004ECEF7 /* SKP_Silk_prefilter_FIX_arm.S */,
+				A96978D123546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4.c */,
+				A96978D223546F20004ECEF7 /* SKP_Silk_NSQ.c */,
+				A96978D323546F20004ECEF7 /* SKP_Silk_burg_modified.c */,
+				A96978D423546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR.c */,
+				A96978D523546F20004ECEF7 /* SKP_Silk_decode_pulses.c */,
+				A96978D623546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_10.h */,
+				A96978D723546F20004ECEF7 /* SKP_Silk_LTP_scale_ctrl_FIX.c */,
+				A96978D823546F20004ECEF7 /* SKP_Silk_LPC_synthesis_filter.c */,
+				A96978D923546F20004ECEF7 /* SKP_Silk_schur64.c */,
+				A96978DA23546F20004ECEF7 /* SKP_Silk_decoder_set_fs.c */,
+				A96978DB23546F20004ECEF7 /* SKP_Silk_residual_energy_FIX.c */,
+			);
+			path = libSATECodec;
+			sourceTree = "<group>";
+		};
+		A9EAD7FD22DEF18800013773 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A969783D23546F20004ECEF7 /* libSATECodec */,
+				A9EAD83722DEF18800013773 /* libBWE */,
+			);
+			name = src;
+			path = ../../../src;
+			sourceTree = "<group>";
+		};
+		A9EAD83722DEF18800013773 /* libBWE */ = {
+			isa = PBXGroup;
+			children = (
+				A9EAD83822DEF18800013773 /* AGR_BWE_find_HB_LPC_FIX.c */,
+				A9EAD83922DEF18800013773 /* AGR_BWE_encode_frame_FIX.c */,
+				A9EAD83A22DEF18800013773 /* AGR_BWE_SDK_API.c */,
+				A9EAD83B22DEF18800013773 /* AGR_BWE_tables_qmf.c */,
+				A9EAD83C22DEF18800013773 /* AGR_BWE_LPC_synthesizer.c */,
+				A9EAD83D22DEF18800013773 /* AGR_BWE_fixed_generic.h */,
+				A9EAD83E22DEF18800013773 /* AGR_BWE_bits.c */,
+				A9EAD83F22DEF18800013773 /* AGR_BWE_defines.h */,
+				A9EAD84022DEF18800013773 /* AGR_BWE_quant_highband.c */,
+				A9EAD84222DEF18800013773 /* AGR_BWE_init.c */,
+				A9EAD84422DEF18800013773 /* AGR_BWE_tables_highband_coeff.c */,
+				A9EAD84522DEF18800013773 /* AGR_BWE_bits.h */,
+				A9EAD84722DEF18800013773 /* AGR_BWE_arch.h */,
+				A9EAD84B22DEF18800013773 /* AGR_BWE_tables_qmf.h */,
+				A9EAD84F22DEF18800013773 /* AGR_BWE_qmf.c */,
+				A9EAD85122DEF18800013773 /* AGR_BWE_decode_frame_FIX.c */,
+				A9EAD85222DEF18800013773 /* AGR_BWE_main_FIX.h */,
+				A9EAD85322DEF18800013773 /* AGR_BWE_structs.h */,
+				A9EAD85422DEF18800013773 /* AGR_BWE_tables_highband_coeff.h */,
+			);
+			path = libBWE;
+			sourceTree = "<group>";
+		};
+		F906DA611EE4426E00E945F8 = {
+			isa = PBXGroup;
+			children = (
+				A9EAD7FD22DEF18800013773 /* src */,
+				F906DA6B1EE4426E00E945F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F906DA6B1EE4426E00E945F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F906DA6A1EE4426E00E945F8 /* libJC1Codec_ARM.a */,
+				F906DA751EE4426E00E945F8 /* JC1Codec_ARMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F906DA691EE4426E00E945F8 /* JC1Codec_ARM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F906DA7E1EE4426E00E945F8 /* Build configuration list for PBXNativeTarget "JC1Codec_ARM" */;
+			buildPhases = (
+				F906DA661EE4426E00E945F8 /* Sources */,
+				F906DA671EE4426E00E945F8 /* Frameworks */,
+				F906DA681EE4426E00E945F8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JC1Codec_ARM;
+			productName = JC1Codec_ARM;
+			productReference = F906DA6A1EE4426E00E945F8 /* libJC1Codec_ARM.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F906DA741EE4426E00E945F8 /* JC1Codec_ARMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F906DA811EE4426E00E945F8 /* Build configuration list for PBXNativeTarget "JC1Codec_ARMTests" */;
+			buildPhases = (
+				F906DA711EE4426E00E945F8 /* Sources */,
+				F906DA721EE4426E00E945F8 /* Frameworks */,
+				F906DA731EE4426E00E945F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F906DA781EE4426E00E945F8 /* PBXTargetDependency */,
+			);
+			name = JC1Codec_ARMTests;
+			productName = JC1Codec_ARMTests;
+			productReference = F906DA751EE4426E00E945F8 /* JC1Codec_ARMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F906DA621EE4426E00E945F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Agora;
+				TargetAttributes = {
+					F906DA691EE4426E00E945F8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F906DA741EE4426E00E945F8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = F906DA651EE4426E00E945F8 /* Build configuration list for PBXProject "JC1Codec_ARM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F906DA611EE4426E00E945F8;
+			productRefGroup = F906DA6B1EE4426E00E945F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F906DA691EE4426E00E945F8 /* JC1Codec_ARM */,
+				F906DA741EE4426E00E945F8 /* JC1Codec_ARMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F906DA731EE4426E00E945F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F906DA661EE4426E00E945F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A969795023546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4_arm.S in Sources */,
+				A969794623546F20004ECEF7 /* SKP_Silk_decode_core.c in Sources */,
+				A969797823546F20004ECEF7 /* SKP_Silk_NLSF_VQ_rate_distortion_FIX.c in Sources */,
+				A969797023546F20004ECEF7 /* SKP_Silk_resampler_private_down4.c in Sources */,
+				A96979B823546F20004ECEF7 /* SKP_Silk_create_init_destroy.c in Sources */,
+				A969790A23546F20004ECEF7 /* SKP_Silk_resampler_up2_arm.S in Sources */,
+				A96978F423546F20004ECEF7 /* SKP_Silk_LSF_cos_table.c in Sources */,
+				A969794223546F20004ECEF7 /* SKP_Silk_resampler_private_up4.c in Sources */,
+				A969798623546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX_arm.S in Sources */,
+				A96979A023546F20004ECEF7 /* SKP_Silk_detect_SWB_input.c in Sources */,
+				A969796A23546F20004ECEF7 /* SKP_Silk_prefilter_FIX.c in Sources */,
+				A969790623546F20004ECEF7 /* SKP_Silk_apply_sine_window.c in Sources */,
+				A96979C423546F20004ECEF7 /* SKP_Silk_gain_quant.c in Sources */,
+				A9EAD8F022DEF18800013773 /* AGR_BWE_tables_qmf.c in Sources */,
+				A96978E223546F20004ECEF7 /* SKP_Silk_resampler_private_AR2.c in Sources */,
+				A969797E23546F20004ECEF7 /* SKP_Silk_lin2log.c in Sources */,
+				A96979C623546F20004ECEF7 /* SKP_Silk_A2NLSF_arm.S in Sources */,
+				A96979A823546F20004ECEF7 /* SKP_Silk_LTP_analysis_filter_FIX.c in Sources */,
+				A969797623546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX.c in Sources */,
+				A96978DC23546F20004ECEF7 /* SKP_Silk_interpolate.c in Sources */,
+				A969799023546F20004ECEF7 /* SKP_Silk_LBRR_reset.c in Sources */,
+				A969794423546F20004ECEF7 /* SKP_Silk_NLSF2A.c in Sources */,
+				A969795623546F20004ECEF7 /* SKP_Silk_resampler_private_AR2_arm.S in Sources */,
+				A969793623546F20004ECEF7 /* SKP_Silk_tables_LTP.c in Sources */,
+				A969790223546F20004ECEF7 /* SKP_Silk_sum_sqr_shift_arm.S in Sources */,
+				A969798E23546F20004ECEF7 /* SKP_Silk_decode_core_arm.S in Sources */,
+				A969791C23546F20004ECEF7 /* SKP_Silk_MA.c in Sources */,
+				A96979DE23546F20004ECEF7 /* SKP_Silk_LTP_scale_ctrl_FIX.c in Sources */,
+				A96979DC23546F20004ECEF7 /* SKP_Silk_decode_pulses.c in Sources */,
+				A9EAD8F322DEF18800013773 /* AGR_BWE_quant_highband.c in Sources */,
+				A9EAD8F222DEF18800013773 /* AGR_BWE_bits.c in Sources */,
+				A969799623546F20004ECEF7 /* SKP_Silk_LPC_inv_pred_gain.c in Sources */,
+				A96978EA23546F20004ECEF7 /* SKP_Silk_VQ_nearest_neighbor_FIX.c in Sources */,
+				A96979AC23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_16.c in Sources */,
+				A969793C23546F20004ECEF7 /* SKP_Silk_tables_pitch_lag.c in Sources */,
+				A969797C23546F20004ECEF7 /* SKP_Silk_regularize_correlations_FIX.c in Sources */,
+				A96979AE23546F20004ECEF7 /* SKP_Silk_scale_copy_vector16.c in Sources */,
+				A969796023546F20004ECEF7 /* SKP_Silk_control_audio_bandwidth.c in Sources */,
+				A96979B223546F20004ECEF7 /* SKP_Silk_decode_frame.c in Sources */,
+				A969798223546F20004ECEF7 /* SKP_Silk_array_maxabs.c in Sources */,
+				A969795423546F20004ECEF7 /* SKP_Silk_inner_prod_aligned_arm.S in Sources */,
+				A96979BE23546F20004ECEF7 /* SKP_Silk_enc_API.c in Sources */,
+				A96978FC23546F20004ECEF7 /* SKP_Silk_dec_API.c in Sources */,
+				A96979A223546F20004ECEF7 /* SKP_Silk_array_maxabs_arm.S in Sources */,
+				A969794023546F20004ECEF7 /* SKP_Silk_process_gains_FIX.c in Sources */,
+				A96979AA23546F20004ECEF7 /* SKP_Silk_sort.c in Sources */,
+				A969790023546F20004ECEF7 /* SKP_Silk_noise_shape_analysis_FIX.c in Sources */,
+				A969799423546F20004ECEF7 /* SKP_Silk_scale_vector.c in Sources */,
+				A96979C223546F20004ECEF7 /* SKP_Silk_resampler_down2_arm.S in Sources */,
+				A96978FE23546F20004ECEF7 /* Agora_SILK_func.c in Sources */,
+				A9EAD8F722DEF18800013773 /* AGR_BWE_tables_highband_coeff.c in Sources */,
+				A969790E23546F20004ECEF7 /* SKP_Silk_VAD.c in Sources */,
+				A969794E23546F20004ECEF7 /* SKP_Silk_bwexpander.c in Sources */,
+				A969792E23546F20004ECEF7 /* SKP_Silk_NLSF_stabilize.c in Sources */,
+				A96979B623546F20004ECEF7 /* SKP_Silk_decode_parameters.c in Sources */,
+				A969797A23546F20004ECEF7 /* SKP_Silk_encode_frame_FIX.c in Sources */,
+				A96978E023546F20004ECEF7 /* SKP_Silk_biquad.c in Sources */,
+				A96978FA23546F20004ECEF7 /* SKP_Silk_autocorr.c in Sources */,
+				A969792823546F20004ECEF7 /* SKP_Silk_clz_arm.S in Sources */,
+				A9EAD8EF22DEF18800013773 /* AGR_BWE_SDK_API.c in Sources */,
+				A969798A23546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ.c in Sources */,
+				A969798823546F20004ECEF7 /* SKP_Silk_find_LTP_FIX.c in Sources */,
+				A96979B423546F20004ECEF7 /* SKP_Silk_HP_variable_cutoff_FIX.c in Sources */,
+				A969793E23546F20004ECEF7 /* SKP_Silk_pitch_est_tables.c in Sources */,
+				A969795C23546F20004ECEF7 /* SKP_Silk_tables_pulses_per_block.c in Sources */,
+				A969791823546F20004ECEF7 /* SKP_Silk_schur64_arm.S in Sources */,
+				A96978EC23546F20004ECEF7 /* SKP_Silk_quant_LTP_gains_FIX.c in Sources */,
+				A969795823546F20004ECEF7 /* SKP_Silk_resampler_private_copy.c in Sources */,
+				A969791223546F20004ECEF7 /* SKP_Silk_NLSF2A_stable.c in Sources */,
+				A969796C23546F20004ECEF7 /* SKP_Silk_resampler_down3.c in Sources */,
+				A96979CE23546F20004ECEF7 /* SKP_Silk_A2NLSF.c in Sources */,
+				A969792623546F20004ECEF7 /* SKP_Silk_find_LPC_FIX.c in Sources */,
+				A969796E23546F20004ECEF7 /* SKP_Silk_tables_other.c in Sources */,
+				A969794823546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_10.c in Sources */,
+				A969791623546F20004ECEF7 /* SKP_Silk_shell_coder.c in Sources */,
+				A96979CA23546F20004ECEF7 /* SKP_Silk_encode_parameters.c in Sources */,
+				A96978F023546F20004ECEF7 /* SKP_Silk_bwexpander_32.c in Sources */,
+				A969792423546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX.c in Sources */,
+				A96978F623546F20004ECEF7 /* SKP_Silk_resampler_rom.c in Sources */,
+				A969793023546F20004ECEF7 /* SKP_Silk_encode_pulses.c in Sources */,
+				A969791A23546F20004ECEF7 /* SKP_Silk_inner_prod_aligned.c in Sources */,
+				A96979D023546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_16.c in Sources */,
+				A969795E23546F20004ECEF7 /* SKP_Silk_code_signs.c in Sources */,
+				A969792023546F20004ECEF7 /* SKP_Silk_control_codec_FIX.c in Sources */,
+				A969796223546F20004ECEF7 /* SKP_Silk_lin2log_arm.S in Sources */,
+				A969796623546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_decode.c in Sources */,
+				A969793823546F20004ECEF7 /* SKP_Silk_schur.c in Sources */,
+				A969792223546F20004ECEF7 /* SKP_Silk_k2a.c in Sources */,
+				A96979E623546F20004ECEF7 /* SKP_Silk_residual_energy_FIX.c in Sources */,
+				A96979A423546F20004ECEF7 /* SKP_Silk_k2a_Q16.c in Sources */,
+				A969796423546F20004ECEF7 /* SKP_Silk_resampler_rom_arm.S in Sources */,
+				A969799C23546F20004ECEF7 /* SKP_Silk_resampler_down2.c in Sources */,
+				A969790C23546F20004ECEF7 /* SKP_Silk_solve_LS_FIX.c in Sources */,
+				A96978F223546F20004ECEF7 /* SKP_Silk_CNG.c in Sources */,
+				A969793A23546F20004ECEF7 /* SKP_Silk_sum_sqr_shift.c in Sources */,
+				A969798023546F20004ECEF7 /* SKP_Silk_tables_sign.c in Sources */,
+				A969799223546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR.c in Sources */,
+				A969793423546F20004ECEF7 /* SKP_Silk_biquad_alt.c in Sources */,
+				A969798C23546F20004ECEF7 /* SKP_Silk_allpass_int_arm.S in Sources */,
+				A969794A23546F20004ECEF7 /* SKP_Silk_find_pitch_lags_FIX.c in Sources */,
+				A969794C23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_10.c in Sources */,
+				A96979D223546F20004ECEF7 /* SKP_Silk_prefilter_FIX_arm.S in Sources */,
+				A969791E23546F20004ECEF7 /* SKP_Silk_range_coder.c in Sources */,
+				A96978DE23546F20004ECEF7 /* SKP_Silk_corrMatrix_FIX.c in Sources */,
+				A9EAD90122DEF18800013773 /* AGR_BWE_decode_frame_FIX.c in Sources */,
+				A9EAD8F122DEF18800013773 /* AGR_BWE_LPC_synthesizer.c in Sources */,
+				A96979D423546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4.c in Sources */,
+				A9EAD8EE22DEF18800013773 /* AGR_BWE_encode_frame_FIX.c in Sources */,
+				A9EAD8FF22DEF18800013773 /* AGR_BWE_qmf.c in Sources */,
+				A969795223546F20004ECEF7 /* SKP_Silk_NSQ_del_dec.c in Sources */,
+				A96979E223546F20004ECEF7 /* SKP_Silk_schur64.c in Sources */,
+				A969792A23546F20004ECEF7 /* SKP_Silk_tables_gain.c in Sources */,
+				A969797423546F20004ECEF7 /* SKP_Silk_resampler.c in Sources */,
+				A96978F823546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ_arm.S in Sources */,
+				A96979BA23546F20004ECEF7 /* SKP_Silk_PLC.c in Sources */,
+				A96979E423546F20004ECEF7 /* SKP_Silk_decoder_set_fs.c in Sources */,
+				A969792C23546F20004ECEF7 /* SKP_Silk_sigm_Q15.c in Sources */,
+				A96978E623546F20004ECEF7 /* SKP_Silk_resampler_down2_3.c in Sources */,
+				A96979BC23546F20004ECEF7 /* SKP_Silk_LP_variable_cutoff.c in Sources */,
+				A969791423546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX_arm.S in Sources */,
+				A969793223546F20004ECEF7 /* SKP_Silk_process_NLSFs_FIX.c in Sources */,
+				A969791023546F20004ECEF7 /* SKP_Silk_sigm_Q15_arm.S in Sources */,
+				A969790823546F20004ECEF7 /* SKP_Silk_resampler_up2.c in Sources */,
+				A96979E023546F20004ECEF7 /* SKP_Silk_LPC_synthesis_filter.c in Sources */,
+				A969799A23546F20004ECEF7 /* SKP_Silk_LPC_synthesis_order16.c in Sources */,
+				A96979C023546F20004ECEF7 /* SKP_Silk_NLSF_VQ_weights_laroia.c in Sources */,
+				A96978E823546F20004ECEF7 /* SKP_Silk_find_pred_coefs_FIX.c in Sources */,
+				A969796823546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR_arm.S in Sources */,
+				A96979D823546F20004ECEF7 /* SKP_Silk_burg_modified.c in Sources */,
+				A969799E23546F20004ECEF7 /* SKP_Silk_decode_pitch.c in Sources */,
+				A96979DA23546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR.c in Sources */,
+				A96979B023546F20004ECEF7 /* SKP_Silk_log2lin.c in Sources */,
+				A96979A623546F20004ECEF7 /* SKP_Silk_pitch_analysis_core.c in Sources */,
+				A9EAD8F522DEF18800013773 /* AGR_BWE_init.c in Sources */,
+				A96979D623546F20004ECEF7 /* SKP_Silk_NSQ.c in Sources */,
+				A9EAD8ED22DEF18800013773 /* AGR_BWE_find_HB_LPC_FIX.c in Sources */,
+				A96979C823546F20004ECEF7 /* SKP_Silk_MA_arm.S in Sources */,
+				A969799823546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1.c in Sources */,
+				A96978E423546F20004ECEF7 /* SKP_Silk_tables_type_offset.c in Sources */,
+				A96979CC23546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1_arm.S in Sources */,
+				A969798423546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_encode_FIX.c in Sources */,
+				A969790423546F20004ECEF7 /* SKP_Silk_residual_energy16_FIX.c in Sources */,
+				A96978EE23546F20004ECEF7 /* SKP_Silk_init_encoder_FIX.c in Sources */,
+				A969797223546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR_arm.S in Sources */,
+				A969795A23546F20004ECEF7 /* SKP_Silk_div_oabi.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F906DA711EE4426E00E945F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96979D723546F20004ECEF7 /* SKP_Silk_NSQ.c in Sources */,
+				A969792323546F20004ECEF7 /* SKP_Silk_k2a.c in Sources */,
+				A96979B123546F20004ECEF7 /* SKP_Silk_log2lin.c in Sources */,
+				A969792923546F20004ECEF7 /* SKP_Silk_clz_arm.S in Sources */,
+				A969794D23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_10.c in Sources */,
+				A969798723546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX_arm.S in Sources */,
+				A969796723546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_decode.c in Sources */,
+				A969794B23546F20004ECEF7 /* SKP_Silk_find_pitch_lags_FIX.c in Sources */,
+				A969797523546F20004ECEF7 /* SKP_Silk_resampler.c in Sources */,
+				A969794323546F20004ECEF7 /* SKP_Silk_resampler_private_up4.c in Sources */,
+				A96979B323546F20004ECEF7 /* SKP_Silk_decode_frame.c in Sources */,
+				A96979AD23546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_16.c in Sources */,
+				A969795523546F20004ECEF7 /* SKP_Silk_inner_prod_aligned_arm.S in Sources */,
+				A969793323546F20004ECEF7 /* SKP_Silk_process_NLSFs_FIX.c in Sources */,
+				A96979BB23546F20004ECEF7 /* SKP_Silk_PLC.c in Sources */,
+				A969797B23546F20004ECEF7 /* SKP_Silk_encode_frame_FIX.c in Sources */,
+				A969796123546F20004ECEF7 /* SKP_Silk_control_audio_bandwidth.c in Sources */,
+				A96978EF23546F20004ECEF7 /* SKP_Silk_init_encoder_FIX.c in Sources */,
+				A969790723546F20004ECEF7 /* SKP_Silk_apply_sine_window.c in Sources */,
+				A96978FF23546F20004ECEF7 /* Agora_SILK_func.c in Sources */,
+				A969797923546F20004ECEF7 /* SKP_Silk_NLSF_VQ_rate_distortion_FIX.c in Sources */,
+				A96979C723546F20004ECEF7 /* SKP_Silk_A2NLSF_arm.S in Sources */,
+				A969796923546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR_arm.S in Sources */,
+				A969795123546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4_arm.S in Sources */,
+				A969799F23546F20004ECEF7 /* SKP_Silk_decode_pitch.c in Sources */,
+				A969793923546F20004ECEF7 /* SKP_Silk_schur.c in Sources */,
+				A96979B523546F20004ECEF7 /* SKP_Silk_HP_variable_cutoff_FIX.c in Sources */,
+				A96979D923546F20004ECEF7 /* SKP_Silk_burg_modified.c in Sources */,
+				A96978F523546F20004ECEF7 /* SKP_Silk_LSF_cos_table.c in Sources */,
+				A96979CD23546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1_arm.S in Sources */,
+				A96979A723546F20004ECEF7 /* SKP_Silk_pitch_analysis_core.c in Sources */,
+				A969794F23546F20004ECEF7 /* SKP_Silk_bwexpander.c in Sources */,
+				A969790B23546F20004ECEF7 /* SKP_Silk_resampler_up2_arm.S in Sources */,
+				A96978FB23546F20004ECEF7 /* SKP_Silk_autocorr.c in Sources */,
+				A96979DF23546F20004ECEF7 /* SKP_Silk_LTP_scale_ctrl_FIX.c in Sources */,
+				A96978FD23546F20004ECEF7 /* SKP_Silk_dec_API.c in Sources */,
+				A96979E723546F20004ECEF7 /* SKP_Silk_residual_energy_FIX.c in Sources */,
+				A96979E523546F20004ECEF7 /* SKP_Silk_decoder_set_fs.c in Sources */,
+				A969794523546F20004ECEF7 /* SKP_Silk_NLSF2A.c in Sources */,
+				A96978E923546F20004ECEF7 /* SKP_Silk_find_pred_coefs_FIX.c in Sources */,
+				A969794723546F20004ECEF7 /* SKP_Silk_decode_core.c in Sources */,
+				A969792523546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX.c in Sources */,
+				A96979C523546F20004ECEF7 /* SKP_Silk_gain_quant.c in Sources */,
+				A969792723546F20004ECEF7 /* SKP_Silk_find_LPC_FIX.c in Sources */,
+				A96979AB23546F20004ECEF7 /* SKP_Silk_sort.c in Sources */,
+				A969793723546F20004ECEF7 /* SKP_Silk_tables_LTP.c in Sources */,
+				A969798B23546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ.c in Sources */,
+				A969796323546F20004ECEF7 /* SKP_Silk_lin2log_arm.S in Sources */,
+				A969798D23546F20004ECEF7 /* SKP_Silk_allpass_int_arm.S in Sources */,
+				A96979A523546F20004ECEF7 /* SKP_Silk_k2a_Q16.c in Sources */,
+				A969799723546F20004ECEF7 /* SKP_Silk_LPC_inv_pred_gain.c in Sources */,
+				A969793B23546F20004ECEF7 /* SKP_Silk_sum_sqr_shift.c in Sources */,
+				A969799123546F20004ECEF7 /* SKP_Silk_LBRR_reset.c in Sources */,
+				A969796523546F20004ECEF7 /* SKP_Silk_resampler_rom_arm.S in Sources */,
+				A969791723546F20004ECEF7 /* SKP_Silk_shell_coder.c in Sources */,
+				A969793D23546F20004ECEF7 /* SKP_Silk_tables_pitch_lag.c in Sources */,
+				A96979B723546F20004ECEF7 /* SKP_Silk_decode_parameters.c in Sources */,
+				A969796D23546F20004ECEF7 /* SKP_Silk_resampler_down3.c in Sources */,
+				A96979AF23546F20004ECEF7 /* SKP_Silk_scale_copy_vector16.c in Sources */,
+				A96979A123546F20004ECEF7 /* SKP_Silk_detect_SWB_input.c in Sources */,
+				A969794923546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB0_10.c in Sources */,
+				A96978EB23546F20004ECEF7 /* SKP_Silk_VQ_nearest_neighbor_FIX.c in Sources */,
+				A96979A323546F20004ECEF7 /* SKP_Silk_array_maxabs_arm.S in Sources */,
+				A969795D23546F20004ECEF7 /* SKP_Silk_tables_pulses_per_block.c in Sources */,
+				A96978F723546F20004ECEF7 /* SKP_Silk_resampler_rom.c in Sources */,
+				A96978E123546F20004ECEF7 /* SKP_Silk_biquad.c in Sources */,
+				A96978E523546F20004ECEF7 /* SKP_Silk_tables_type_offset.c in Sources */,
+				A96979E323546F20004ECEF7 /* SKP_Silk_schur64.c in Sources */,
+				A969799323546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR.c in Sources */,
+				A969798323546F20004ECEF7 /* SKP_Silk_array_maxabs.c in Sources */,
+				A969797123546F20004ECEF7 /* SKP_Silk_resampler_private_down4.c in Sources */,
+				A969798923546F20004ECEF7 /* SKP_Silk_find_LTP_FIX.c in Sources */,
+				A969795923546F20004ECEF7 /* SKP_Silk_resampler_private_copy.c in Sources */,
+				A969795B23546F20004ECEF7 /* SKP_Silk_div_oabi.c in Sources */,
+				A969793F23546F20004ECEF7 /* SKP_Silk_pitch_est_tables.c in Sources */,
+				A96978DF23546F20004ECEF7 /* SKP_Silk_corrMatrix_FIX.c in Sources */,
+				A969790F23546F20004ECEF7 /* SKP_Silk_VAD.c in Sources */,
+				A96978E323546F20004ECEF7 /* SKP_Silk_resampler_private_AR2.c in Sources */,
+				A969792123546F20004ECEF7 /* SKP_Silk_control_codec_FIX.c in Sources */,
+				A969791B23546F20004ECEF7 /* SKP_Silk_inner_prod_aligned.c in Sources */,
+				A969794123546F20004ECEF7 /* SKP_Silk_process_gains_FIX.c in Sources */,
+				A969798123546F20004ECEF7 /* SKP_Silk_tables_sign.c in Sources */,
+				A969798523546F20004ECEF7 /* SKP_Silk_NLSF_MSVQ_encode_FIX.c in Sources */,
+				A969791F23546F20004ECEF7 /* SKP_Silk_range_coder.c in Sources */,
+				A96979DD23546F20004ECEF7 /* SKP_Silk_decode_pulses.c in Sources */,
+				A96978E723546F20004ECEF7 /* SKP_Silk_resampler_down2_3.c in Sources */,
+				A969791D23546F20004ECEF7 /* SKP_Silk_MA.c in Sources */,
+				A969791323546F20004ECEF7 /* SKP_Silk_NLSF2A_stable.c in Sources */,
+				A969797F23546F20004ECEF7 /* SKP_Silk_lin2log.c in Sources */,
+				A96979C923546F20004ECEF7 /* SKP_Silk_MA_arm.S in Sources */,
+				A969795F23546F20004ECEF7 /* SKP_Silk_code_signs.c in Sources */,
+				A969796B23546F20004ECEF7 /* SKP_Silk_prefilter_FIX.c in Sources */,
+				A969790923546F20004ECEF7 /* SKP_Silk_resampler_up2.c in Sources */,
+				A96978DD23546F20004ECEF7 /* SKP_Silk_interpolate.c in Sources */,
+				A969793123546F20004ECEF7 /* SKP_Silk_encode_pulses.c in Sources */,
+				A96978ED23546F20004ECEF7 /* SKP_Silk_quant_LTP_gains_FIX.c in Sources */,
+				A969792D23546F20004ECEF7 /* SKP_Silk_sigm_Q15.c in Sources */,
+				A96979DB23546F20004ECEF7 /* SKP_Silk_resampler_private_IIR_FIR.c in Sources */,
+				A969799923546F20004ECEF7 /* SKP_Silk_ana_filt_bank_1.c in Sources */,
+				A969799523546F20004ECEF7 /* SKP_Silk_scale_vector.c in Sources */,
+				A969799D23546F20004ECEF7 /* SKP_Silk_resampler_down2.c in Sources */,
+				A96978F923546F20004ECEF7 /* SKP_Silk_resampler_private_up2_HQ_arm.S in Sources */,
+				A969795323546F20004ECEF7 /* SKP_Silk_NSQ_del_dec.c in Sources */,
+				A969790523546F20004ECEF7 /* SKP_Silk_residual_energy16_FIX.c in Sources */,
+				A96979BD23546F20004ECEF7 /* SKP_Silk_LP_variable_cutoff.c in Sources */,
+				A96979C323546F20004ECEF7 /* SKP_Silk_resampler_down2_arm.S in Sources */,
+				A96979D123546F20004ECEF7 /* SKP_Silk_tables_NLSF_CB1_16.c in Sources */,
+				A969798F23546F20004ECEF7 /* SKP_Silk_decode_core_arm.S in Sources */,
+				A96979B923546F20004ECEF7 /* SKP_Silk_create_init_destroy.c in Sources */,
+				A969792F23546F20004ECEF7 /* SKP_Silk_NLSF_stabilize.c in Sources */,
+				A96979CF23546F20004ECEF7 /* SKP_Silk_A2NLSF.c in Sources */,
+				A969797723546F20004ECEF7 /* SKP_Silk_warped_autocorrelation_FIX.c in Sources */,
+				A96978F323546F20004ECEF7 /* SKP_Silk_CNG.c in Sources */,
+				A96978F123546F20004ECEF7 /* SKP_Silk_bwexpander_32.c in Sources */,
+				A96979D323546F20004ECEF7 /* SKP_Silk_prefilter_FIX_arm.S in Sources */,
+				A969790D23546F20004ECEF7 /* SKP_Silk_solve_LS_FIX.c in Sources */,
+				A969799B23546F20004ECEF7 /* SKP_Silk_LPC_synthesis_order16.c in Sources */,
+				A96979E123546F20004ECEF7 /* SKP_Silk_LPC_synthesis_filter.c in Sources */,
+				A969790323546F20004ECEF7 /* SKP_Silk_sum_sqr_shift_arm.S in Sources */,
+				A96979A923546F20004ECEF7 /* SKP_Silk_LTP_analysis_filter_FIX.c in Sources */,
+				A969790123546F20004ECEF7 /* SKP_Silk_noise_shape_analysis_FIX.c in Sources */,
+				A969797323546F20004ECEF7 /* SKP_Silk_resampler_private_down_FIR_arm.S in Sources */,
+				A96979D523546F20004ECEF7 /* SKP_Silk_resampler_private_ARMA4.c in Sources */,
+				A96979C123546F20004ECEF7 /* SKP_Silk_NLSF_VQ_weights_laroia.c in Sources */,
+				A96979BF23546F20004ECEF7 /* SKP_Silk_enc_API.c in Sources */,
+				A969796F23546F20004ECEF7 /* SKP_Silk_tables_other.c in Sources */,
+				A969791123546F20004ECEF7 /* SKP_Silk_sigm_Q15_arm.S in Sources */,
+				A969791523546F20004ECEF7 /* SKP_Silk_NLSF_VQ_sum_error_FIX_arm.S in Sources */,
+				A969791923546F20004ECEF7 /* SKP_Silk_schur64_arm.S in Sources */,
+				A969792B23546F20004ECEF7 /* SKP_Silk_tables_gain.c in Sources */,
+				A969795723546F20004ECEF7 /* SKP_Silk_resampler_private_AR2_arm.S in Sources */,
+				A96979CB23546F20004ECEF7 /* SKP_Silk_encode_parameters.c in Sources */,
+				A969793523546F20004ECEF7 /* SKP_Silk_biquad_alt.c in Sources */,
+				A969797D23546F20004ECEF7 /* SKP_Silk_regularize_correlations_FIX.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F906DA781EE4426E00E945F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F906DA691EE4426E00E945F8 /* JC1Codec_ARM */;
+			targetProxy = F906DA771EE4426E00E945F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F906DA7C1EE4426E00E945F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NO_ASM,
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../../interface,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F906DA7D1EE4426E00E945F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = NO_ASM;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../../interface,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F906DA7F1EE4426E00E945F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F906DA801EE4426E00E945F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F906DA821EE4426E00E945F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JC1Codec_ARMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F906DA831EE4426E00E945F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JC1Codec_ARMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F906DA651EE4426E00E945F8 /* Build configuration list for PBXProject "JC1Codec_ARM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F906DA7C1EE4426E00E945F8 /* Debug */,
+				F906DA7D1EE4426E00E945F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F906DA7E1EE4426E00E945F8 /* Build configuration list for PBXNativeTarget "JC1Codec_ARM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F906DA7F1EE4426E00E945F8 /* Debug */,
+				F906DA801EE4426E00E945F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F906DA811EE4426E00E945F8 /* Build configuration list for PBXNativeTarget "JC1Codec_ARMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F906DA821EE4426E00E945F8 /* Debug */,
+				F906DA831EE4426E00E945F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F906DA621EE4426E00E945F8 /* Project object */;
+}
