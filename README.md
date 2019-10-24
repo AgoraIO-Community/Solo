@@ -1,7 +1,9 @@
-Agora Solo is an open source speech codec, it was developed based on Silk with BWE(Bandwidth Extension) and MDC(Multi Description Coding). With these technologies, Solo is enable to resist weak networks at low bitrates.
+# Introduction
 
-Here is the copyright declaration in Silk：
-/***********************************************************************
+Agora Solo is an open source speech codec, it was developed based on Silk with BWE(Bandwidth Extension) and MDC(Multi Description Coding). With these technologies, Solo is enable to resist weak networks at low bitrates. Solo can support Android/iOS/MacOS/Windows now. 
+
+# Copyright declaration of Silk
+
 Copyright (c) 2006-2012, Skype. All rights reserved. 
 Redistribution and use in source and binary forms, with or without 
 modification, (subject to the limitations in the disclaimer below) 
@@ -26,7 +28,12 @@ USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
 ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-***********************************************************************/
 
+# License
 
-Solo has float version and fix version on Android/iOS/MacOS/windows. Please feel free to commit your code or give us your idea if you find some problems. Let's make Solo as a long-term evolution codec.
+This software is under the MIT License (MIT).
+
+# Another words
+
+Please feel free to commit your code or give us your idea if you find some problems. Let's make Solo as a long-term evolution codec.
+
