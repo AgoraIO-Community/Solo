@@ -14,11 +14,11 @@ Figure 2. Architecture of Solo decoder：
 
 ## Bandwidth expansion
 
-The main reason for solo to use bandwidth expansion is to reduce the computational complexity. In the WB mode of Silk, all 16KHz signals will enter the subsequent processing module, while for the voice, the information above 8kHz is very small. This part of information will enter the subsequent processing module, which will bring a certain waste of computing resources. Considering MDC needs to introduce additional analysis module to process multiple code streams, it will introduce additional complexity, which is one of the important reasons why MDC does not land smoothly in recent years. In order to reduce the complexity, we divide the wideband signal into 0-8k narrowband information and 8-16k high frequency information before coding. Only the narrow-band information will enter the subsequent normal analysis and coding process, so that the subsequent calculation amount will be reduced by half, and the overall quality will not be significantly reduced thanks to the bandwidth expansion algorithm. In the high-frequency information part, Solo uses an independent analysis and coding module to compress the high-frequency information into a 1.6kbps code stream by default. This part of high frequency information can be combined with low frequency signal in decoder to recover high frequency signal.
+The main reason for solo to use bandwidth expansion is to reduce the computational complexity. In the WB mode of Silk, all 16KHz signals will enter the subsequent processing module, while for the voice, the information above 8kHz is very small. This part of information will enter the subsequent processing module, which will bring a certain waste of computing resources. Considering MDC needs to introduce additional analysis module to process multiple bitstreams, it will introduce additional complexity, which is one of the important reasons why MDC does not land smoothly in recent years. In order to reduce the complexity, Solo divide the wideband signal into 0-8k narrowband information and 8-16k high frequency information before coding. Only the narrow-band information will enter the subsequent normal analysis and coding process, so that the subsequent calculation amount will be reduced by half, and the overall quality will not be significantly reduced thanks to the bandwidth expansion algorithm. In the high-frequency information part, Solo uses an independent analysis and coding module to compress the high-frequency information into a 1.6kbps bitstream by default. This part of high frequency information can be combined with low frequency signal in decoder to recover high frequency signal.
 
 ## MDC with delay decision
 
-In Silk, delay decision module is a module for computing coding error. It can select the code stream with the smallest error from multiple candidate code streams as the coding output. To some extent, it makes scalar quantization have the performance of vector quantization Solo uses the delay decision module to realize the analysis and construction of multi description code stream. The MDC of solo mainly acts on the residual signal output by the filter. Solo will perform multi gain control on the residual signal according to the current signal state: after the MD gain a (0 < a < 1) is calcelated, it will be acted on the odd subframe. Meanwhile, the even subframe is multiplied by (1-a) . Here, it is recorded as residual 1 and residual 2.
+In Silk, delay decision module is a module for computing coding error. It can select the bitstream with the smallest error from multiple candidate bitstreams as the coding output. To some extent, it makes scalar quantization have the performance of vector quantization Solo uses the delay decision module to realize the analysis and construction of multi description bitstream. The MDC of solo mainly acts on the residual signal output by the filter. Solo will perform multi gain control on the residual signal according to the current signal state: after the MD gain a (0 < a < 1) is calcelated, it will be acted on the odd subframe. Meanwhile, the even subframe is multiplied by (1-a) . Here, it is recorded as residual 1 and residual 2.
 
 Figure 3. Multiple description residual signal:
 ![solo_residual](https://github.com/AgoraIO-Community/Solo/blob/master/imag/solo_residual.png)
@@ -30,7 +30,7 @@ Then, the two residual signals will enter into the new delay decision module. Ea
 Figure 4. Encoder stream integration and packing:
 ![solo_packing](https://github.com/AgoraIO-Community/Solo/blob/master/imag/solo_packing.png)
 
-The default configuration of Solo is to input 40ms (2 frames) each time and output two complementary multi description bitstreams. When the decoder receives any bitstream, it can decode 40ms signal. In order to facilitate the receiver to distinguish the sequence of the code stream, the fourth bit on the right of the first byte of the code stream is the code stream sequence flag bit, the value of the first code stream flag bit is 0, and the value of the second code stream flag bit is 1. When the receiver processes the bitstream, it can judge the sequence of the stream according to this flag.
+The default configuration of Solo is to input 40ms (2 frames) each time and output two complementary multi description bitstreams. When the decoder receives any bitstream, it can decode 40ms signal. In order to facilitate the receiver to distinguish the sequence of the bitstream, the fourth bit on the right of the first byte of the bitstream is the sequence flag bit, the flag value of the first bitstream bit is 0, and the flag value of the second bitstream flag bit is 1. When the receiver processes the bitstream, it can judge the sequence of the stream according to this flag.
 
 
 # Overview of integration methods
@@ -39,10 +39,10 @@ Generally speaking, the following changes are needed to migrate solo to the medi
 ## Integrate solo to engine
 Developers can either integrate source code or static library to the engine. What need to do is using the AGR_JC1_SDK_API.h,which can be found in the source code. Firstly, call AGR_Sate_Encoder_Init ( ) to configure the encoding state, then use AGR_Sate_Encoder_Encode ( ) to encode audio signal. Finally, call AGR_Sate_Encoder_Uninit ( ) pair after the encoding processing is completed. Using method of decoder is familiar withencoder, just call the relevant function of decoder.
 
-Figure 5. Calling the functions required by the encoder:
+Figure 5. Functions required by encoding:
 ![solo_API_en](https://github.com/AgoraIO-Community/Solo/blob/master/imag/solo_API_en.png)
 
-Figure 6. Functions required to call decoder:
+Figure 6. Functions required by decoding:
 ![solo_API_de](https://github.com/AgoraIO-Community/Solo/blob/master/imag/solo_API_de.png)
 
 ## Bitstream sending
@@ -53,10 +53,10 @@ Figure 7. Bitstream segmentation and contracting:
 
 ## Bitstream screening and synthesis at receiver
 At the receiving end, every time a packet needs to be inserted into the buffer, it needs to be determined whether the corresponding complementary packet already exists and which complementary bitstream the current packet contains.
-The engine can determine which complementary bitstream the current bitstream is based on the bitstream flag bit. If the current cache queue does not have its corresponding packet, it can directly insert the packet payload into the cache queue, and update the array named nbytes according to the bitstream contained in the packet (the decoder depends on the array to determine the current packet receiving status). nBytes [0] represents the total length of the code stream, and nBytes [1] represents the length of the first complementary code stream.
+The engine can determine which complementary bitstream the current bitstream is based on the bitstream flag bit. If the current cache queue does not have its corresponding packet, it can directly insert the packet payload into the cache queue, and update the array named nbytes according to the bitstream contained in the packet (the decoder depends on the array to determine the current packet receiving status). nBytes [0] represents the total length of the bitstream, and nBytes [1] represents the length of the first complementary bitstream.
 If there are corresponding complementary packets in the current cache queue, it is necessary to synthesize them: insert the first complementary stream before the second one, and then update the nbytes array state.
 
-Figure 8. Code stream synthesis method at the receiver:
+Figure 8. BItstream synthesis method at the receiver:
 ![solo_neteq](https://github.com/AgoraIO-Community/Solo/blob/master/imag/solo_neteq.png)
 
 # Copyright declaration of Silk
