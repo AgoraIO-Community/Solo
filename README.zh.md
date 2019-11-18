@@ -1,6 +1,14 @@
 *[English](README.md)|中文*
 # Solo概述
+抗丢包音频编解码器 SOLO 已经开源，源代码已经上传至 Github。该项目由声网Agora团队自研，以 Silk 编解码器为基础，融合BWE、MDC等技术，可以帮助WebRTC应用在较高丢包率下，仍然获得较好的实时音频体验。
+
 Solo是一款面向不稳定网络的编解码器，它以Silk为基础，融合了带宽扩展（BWE）和多描述编码（MDC）等技术，使其能在较低复杂度下拥有弱网对抗能力。
+
+SOLO 特性：
+（1）兼容 WebRTC
+（2）以 Silk 为基础，融合了带宽扩展(BWE)和多描述编码(MDC)等技术
+（3）25%丢包率下，MOS 值优于 Opus。
+
 
 图1. Solo编码器架构：
 ![solo_encoder](https://github.com/AgoraIO-Community/Solo/blob/master/imag/solo_encoder.png)
@@ -84,4 +92,5 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 The MIT License（MIT）
 
 # 最后一句话
-如果你有任何问题或修改意见，请联系我们，以持续演进Solo
+我们在RTC论坛开设了Solo开源帖，如果你有任何问题或修改意见，请联系我们，以持续演进Solo。（https://rtcdeveloper.com/t/topic/16270）
+
