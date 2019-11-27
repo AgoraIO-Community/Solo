@@ -9,27 +9,25 @@
 # define SKP_STR_CASEINSENSITIVE_COMPARE(x, y) _stricmp(x, y)
 #else
 # define SKP_STR_CASEINSENSITIVE_COMPARE(x, y) strcasecmp(x, y)
-#endif 
+#endif
 
 
 #pragma comment(lib,"libSATECodec_FLP.lib")
 #pragma comment(lib,"libBWE.lib")
 
 
-
-
 /* PSEUDO-RANDOM GENERATOR                                                          */
 /* Make sure to store the result as the seed for the next call (also in between     */
 /* frames), otherwise result won't be random at all. When only using some of the    */
 /* bits, take the most significant bits by right-shifting. Do not just mask off     */
-/* the lowest bits.                                                                 */ 
+/* the lowest bits.                                                                 */
 #define SKP_RAND(seed)                   ((907633515) + (seed) * (196314165))
 
 
 #define  cmdControl
 
 /* Define codec specific settings */
-#define MAX_BYTES_PER_FRAME     250 // Equals peak bitrate of 100 kbps 
+#define MAX_BYTES_PER_FRAME     250 // Equals peak bitrate of 100 kbps
 #define FRAME_LENGTH_MS         20
 #define MAX_API_FS_KHZ          48
 #define MAX_FRAME_SIZE 1920
@@ -56,7 +54,6 @@ int main(int argc, char **argv)
   FILE *fout;
   void *stDec;
   int frame = 0,j;
-  int codec_type = 0;
   short FrmBuf[MAX_FRAME_SIZE];
   size_t    counter;
   int totPackets, lost, quiet = 0, i, k;
@@ -76,7 +73,7 @@ int main(int argc, char **argv)
   USER_Ctrl_dec dec_Ctrl;
 
 #ifndef cmdControl
-  
+
   char *InFileName = "..\\Testseq\\Ch_f1_raw.pcm";
   char *MidFileName= "..\\Testseq\\ch8kall_16k.enc";
   char *OutFileName= "..\\Testseq\\Ch_f1_scodec.dec";
@@ -163,28 +160,27 @@ int main(int argc, char **argv)
 
   printf("inputfile :	%s\n",InFileName);
   printf("outputfile:	%s\n",OutFileName);
-  
 
-  if((dec_Ctrl.framesize_ms != 40)&&	
-  	 (dec_Ctrl.framesize_ms != 80)&&	
-  	 (dec_Ctrl.framesize_ms != 120)&&	
+
+  if((dec_Ctrl.framesize_ms != 40)&&
+  	 (dec_Ctrl.framesize_ms != 80)&&
+  	 (dec_Ctrl.framesize_ms != 120)&&
   	 (dec_Ctrl.framesize_ms != 160)){
 		fprintf(stderr," framesize (ms) must be integer times of 40\n");
 		return 0;
   	}
-  
-  if((dec_Ctrl.samplerate != 16000)&&	
-  	 (dec_Ctrl.samplerate != 32000)&&	
+
+  if((dec_Ctrl.samplerate != 16000)&&
+  	 (dec_Ctrl.samplerate != 32000)&&
   	 (dec_Ctrl.samplerate != 48000)){
 		fprintf(stderr," sample rate (hz) must be 16000 , 32000 or 48000\n");
 		return 0;
   	}
 
-  
   dec_Ctrl.useMDIndex = MDI_in_bitstream;
   stDec = AGR_Sate_Decoder_Init(&dec_Ctrl);
   frame =0;
-  
+
   nwrite = dec_Ctrl.framesize_ms*dec_Ctrl.samplerate/1000;
 
   /* default settings */
@@ -213,16 +209,16 @@ int main(int argc, char **argv)
 
 	  MD1 Steam = Low Band MD1 Stream
 	  MD2 Steam = Low Band MD2 Stream + High Band Stream
-	  Length£¨ MD1 Steam £© =  Length£¨ Low Band MD1 Stream £©
-	  Length£¨ MD2 Steam £© =  Length£¨ Low Band MD2 Stream £© + Length£¨ High Band Stream £©
-	  Byte0 = Length£¨ MD1 Steam £© + Length£¨ MD2 Steam £© 
-	        = Length£¨ Low Band MD1 Stream £© + Length£¨ Low Band MD2 Stream £© + Length£¨ High Band Stream £©
-	  Byte1 = Length£¨ MD2 Steam £©
+	  Length(MD1 Stream) = Length(Low Band MD1 Stream)
+	  Length(MD2 Stream) = Length(Low Band MD2 Stream) + Length(High Band Stream)
+	  Byte0 = Length(MD1 Stream) + Length(MD2 Stream)
+	        = Length(Low Band MD1 Stream) + Length(Low Band MD2 Stream) + Length(High Band Stream)
+	  Byte1 = Length(MD2 Stream)
 
 	  */
 
 	  counter = fread(payloadEnd, sizeof(unsigned char), nBytes[0], fin);
-	  
+
 	  if( ( short )counter < nBytes[0] ) {
 	    	break;
 	  }
@@ -270,7 +266,7 @@ int main(int argc, char **argv)
 #endif
 		  }else if ((lostMD[0] == 1) && (lostMD[1] == 0)) {/* Loss the MD1 Steam ,use the MD2 Steam  */
 			  lost = 0;
-			  payloadToDec = payload + nBytes[0] - nBytes[1];  
+			  payloadToDec = payload + nBytes[0] - nBytes[1];
 			  nBytes[0] = nBytes[1];
 			  nBytes[1] = 0;
 			  MD_type = 1;
@@ -325,7 +321,7 @@ int main(int argc, char **argv)
 		  MD_type = 0;
 	 }else if(dec_mode == 2){
 		 lost = 0;
-		 payloadToDec = payload + nBytes[0] - nBytes[1];  
+		 payloadToDec = payload + nBytes[0] - nBytes[1];
 		 nBytes[0] = nBytes[1];
 		 nBytes[1] = 0;
 		 MD_type = 1;
@@ -354,7 +350,7 @@ int main(int argc, char **argv)
   }
 
    DecEnd:
- 
+
    AGR_Sate_Decoder_Uninit(stDec);
 
    fclose(fin);

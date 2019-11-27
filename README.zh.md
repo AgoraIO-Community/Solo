@@ -51,7 +51,7 @@ Solo默认配置为每次输入40ms（2帧），输出两段互补的多描述�
 ![solo_API_de](https://github.com/AgoraIO-Community/Solo/blob/master/imag/solo_API_de.png)
 
 ##   编码端分包发送
-编码器每次输入40ms信号，输出的是一整段包含两段互补码流的码流。如图所示，蓝色框和橙色框分别代表输出码流里的两段独立码流，每段码流都包含帧1和帧2的信息，编码器输出码流的同时，也会通过nBytesOut输出每段互补码流的长度，nBytesOut[0]表示码流总长度，nBytesOut[1]表示第一段互补码流的长度，引擎端需要依据此长度，将其分割成两段码流，并分包进行发送。
+编码器每次输入40ms信号，输出的是一整段包含两段互补码流的码流。如图所示，蓝色框和橙色框分别代表输出码流里的两段独立码流，每段码流都包含帧1和帧2的信息，编码器输出码流的同时，也会通过nBytesOut输出每段互补码流的长度，nBytesOut[0]表示码流总长度，nBytesOut[1]表示的是第一段互补码流的长度，第二段互补码流的长度是通过nBytesOut[0]-nBytesOut[1]计算出来的，引擎端需要依据此长度，将其分割成两段码流，并分包进行发送。
 
 图7. 码流分割及发包:
 ![solo_sending](https://github.com/AgoraIO-Community/Solo/blob/master/imag/solo_sending.png)

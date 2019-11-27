@@ -1,8 +1,7 @@
-
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
-#include <io.h>
+#include <string.h>
+#include <unistd.h>
 
 #include "AGR_JC1_SDK_API.h"
 
@@ -18,7 +17,7 @@
 #define  MAX_FRAME_BYTES 1024
 
 /* Define codec specific settings */
-#define MAX_BYTES_PER_FRAME     250 // Equals peak bitrate of 100 kbps 
+#define MAX_BYTES_PER_FRAME     250 // Equals peak bitrate of 100 kbps
 #define MAX_INPUT_FRAMES        5
 #define MAX_LBRR_DELAY          2
 #define MAX_FRAME_LENGTH        480
@@ -29,7 +28,7 @@
 # define SKP_STR_CASEINSENSITIVE_COMPARE(x, y) _stricmp(x, y)
 #else
 # define SKP_STR_CASEINSENSITIVE_COMPARE(x, y) strcasecmp(x, y)
-#endif 
+#endif
 
 
 static void print_usage( char* argv[] ) {
@@ -57,7 +56,7 @@ int main(int argc, char **argv)
 	int k,  totPackets, totActPackets;
 	double    sumBytes, sumCoreBytes, sumActBytes, avg_rate, avg_md2_rate, act_rate, nrg, sumBytes2;//,avg_rate2;
 
-	char cbits[MAX_FRAME_BYTES];
+	unsigned char cbits[MAX_FRAME_BYTES];
 
 
 	int frame = 0;
@@ -98,7 +97,7 @@ int main(int argc, char **argv)
     enc_Ctrl.joint_enable = 0;
 	enc_Ctrl.joint_mode = 0;
 	enc_Ctrl.framesize_ms = 40;
-	
+
 	if( argc < 3 ) {
 		print_usage( argv );
 		exit( 0 );
@@ -147,13 +146,13 @@ int main(int argc, char **argv)
   		joint disable
   		20ms 2MD
   		40ms 2MD
-		joint mode 0  reserve for low band multiframe joint coding 
+		joint mode 0  reserve for low band multiframe joint coding
 		joint mode 1  high band multiframe joint coding method 0
 		joint mode 2  reserve for high band multiframe joint coding method 1 (LPC and Res)
-		joint mode 3  reserve for low band and high band all multiframe joint coding 
+		joint mode 3  reserve for low band and high band all multiframe joint coding
 					  reserve for 1. low band multiframe joint coding is OK
 					              2. select a better joint method in 0 or 1 of high band
-  
+
   */
 #endif
 	if(enc_Ctrl.samplerate != 16000)
@@ -193,16 +192,16 @@ int main(int argc, char **argv)
 
 	while(fread(&FrmBuf[0],sizeof(short),nread,fin)==nread)
 	{
-
 		//if(deg_info)printf("********************* frame : %d************************\n",frame);
 
+        memset(nBytes, 0, sizeof(short) * 6);
 		nBytesX = AGR_Sate_Encoder_Encode(stEnc,&FrmBuf[0],cbits, MAX_FRAME_BYTES, &nBytes[0]);
-		
+
 		if (nBytesX < 0) {
 			printf("\nYY_SSC_Encode returned %d", nBytesX);
 			break;
 		}
-		
+
 		smplsSinceLastPacket += nread;
 
 		if( ( ( 1000 * smplsSinceLastPacket ) / enc_Ctrl.samplerate ) == packetSize_ms ) {
@@ -232,26 +231,25 @@ int main(int argc, char **argv)
 
 		MD1 Steam = Low Band MD1 Stream
 		MD2 Steam = Low Band MD2 Stream + High Band Stream
-		Length£¨ MD1 Steam £© =  Length£¨ Low Band MD1 Stream £©
-		Length£¨ MD2 Steam £© =  Length£¨ Low Band MD2 Stream £© + Length£¨ High Band Stream £©
-		Byte0 = Length£¨ MD1 Steam £© + Length£¨ MD2 Steam £©
-		      = Length£¨ Low Band MD1 Stream £© + Length£¨ Low Band MD2 Stream £© + Length£¨ High Band Stream £©
-		Byte1 = Length£¨ MD2 Steam £©
+		Length(MD1 Steam) = Length(Low Band MD1 Stream)
+		Length(MD2 Steam) = Length(Low Band MD2 Stream) + Length(High Band Stream)
+		Byte0 = Length(MD1 Steam) + Length(MD2 Steam)
+		      = Length(Low Band MD1 Stream) + Length(Low Band MD2 Stream) + Length(High Band Stream)
+		Byte1 = Length(MD2 Steam)
 
 		*/
-		//printf("nbBytes = %d\n",nBytes);  
-		
+		//printf("nbBytes = %d\n",nBytes);
+
 		fwrite(&nBytes[0], sizeof(short), 1, fout);
-		fwrite(&nBytes[1], sizeof(short), 1, fout);  
+		fwrite(&nBytes[1], sizeof(short), 1, fout);
 
 		if (nBytes[0])
 		{
 			fwrite(&cbits[0], sizeof(char), nBytesX, fout);
 		}
 
-		memset(nBytes, 0, sizeof(short) * 6);
 		frame++;
-		printf("%d frames processed!\r",frame);    
+		printf("%d frames processed!\r",frame);
 	}//end while()
 
 	if (frame == 0)
@@ -263,10 +261,10 @@ int main(int argc, char **argv)
 		avg_rate = 8.0 / packetSize_ms * sumBytes / totPackets;
 		avg_md2_rate = 8.0 / packetSize_ms * sumBytes2 / totPackets;
 		act_rate = 8.0 / packetSize_ms * sumActBytes / totActPackets;
-		printf("\n\nAverage bitrate:             %.3f kbps", (avg_rate - avg_md2_rate));
-		printf("\nAverage bitrate:             %.3f kbps", avg_md2_rate);
-		printf("\nAverage T bitrate:              %.3f kbps", (avg_rate));
-		printf("\nActive bitrate:              %.3f kbps", act_rate);
+		printf("\n\nAverage bitrate:        %.3f kbps", (avg_rate - avg_md2_rate));
+		printf("\nAverage bitrate:          %.3f kbps", avg_md2_rate);
+		printf("\nAverage T bitrate:        %.3f kbps", (avg_rate));
+		printf("\nActive bitrate:           %.3f kbps", act_rate);
 		printf("\n\n");
 
 	}
@@ -277,7 +275,7 @@ int main(int argc, char **argv)
 	fclose(fin);
 	fclose(fout);
 
-	if(access("_bitrate.txt",0))//ÅÐ¶ÏÄ¿Â¼ÊÇ·ñ´æÔÚ
+	if(access("_bitrate.txt",0))
 	{
 		FILE *brf;
 		brf = fopen("_bitrate.txt","wb+");
