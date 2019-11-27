@@ -32,3 +32,4 @@ ifeq ($(TARGET_ARCH_ABI),x86)
 LOCAL_CFLAGS += -march=i686 -O3 
 endif
 include $(BUILD_STATIC_LIBRARY)
+# include $(BUILD_SHARED_LIBRARY)
