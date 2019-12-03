@@ -92,5 +92,5 @@ This software is under the MIT License (MIT).
 
 # Another words
 
-We have set up a solo exchange post in RTC forum to facilitate everyone's exchange and discussion. [The forum link is here](https://rtcdeveloper.com/t/topic/16270). Please feel free to commit your code or give us your idea if you find some problems. Let's make Solo as a long-term evolution codec.
+We have set up a SOLO exchange post in RTC forum to facilitate everyone's exchange and discussion. [The forum link is here](https://rtcdeveloper.com/t/topic/16270). Please feel free to commit your code or give us your idea if you find some problems. Let's make SOLO as a long-term evolution codec.
 
