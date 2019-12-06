@@ -6,7 +6,7 @@ Agora SOLO is an open source speech codec, it was developed based on Silk with B
 Figure 1. Architecture of SOLO encoder：
 ![solo_encoder](https://github.com/AgoraIO-Community/Solo/blob/master/imag/solo_encoder.png)
 
-Figure 2. Architecture of Solo decoder：
+Figure 2. Architecture of SOLO decoder：
 ![solo_decoder](https://github.com/AgoraIO-Community/Solo/blob/master/imag/solo_decoder.png)
 
 
@@ -92,5 +92,5 @@ This software is under the MIT License (MIT).
 
 # Another words
 
-We have set up a solo exchange post in RTC forum to facilitate everyone's exchange and discussion. [The forum link is here](https://rtcdeveloper.com/t/topic/16270). Please feel free to commit your code or give us your idea if you find some problems. Let's make Solo as a long-term evolution codec.
+We have set up a SOLO exchange post in RTC forum to facilitate everyone's exchange and discussion. [The forum link is here](https://rtcdeveloper.com/t/topic/16270). Please feel free to commit your code or give us your idea if you find some problems. Let's make SOLO as a long-term evolution codec.
 

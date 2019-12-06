@@ -95,4 +95,4 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 The MIT License（MIT）
 
 # 最后一句话
-我们在RTC论坛开设了Solo交流帖方便大家交流讨论，[论坛链接戳这里](https://rtcdeveloper.com/t/topic/16270)，如果你有任何问题或修改意见，请联系我们，以持续演进Solo。
+我们在RTC论坛开设了SOLO交流帖方便大家交流讨论，[论坛链接戳这里](https://rtcdeveloper.com/t/topic/16270)，如果你有任何问题或修改意见，请联系我们，以持续演进SOLO。
