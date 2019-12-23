@@ -346,7 +346,10 @@ SKP_int SKP_Silk_decode_frame(
     /********************************************/
     SKP_assert( ( ( psDec->fs_kHz == 12 ) && ( L % 3 ) == 0 ) || 
                 ( ( psDec->fs_kHz != 12 ) && ( L % 2 ) == 0 ) );
-    SKP_Silk_biquad( pOut, psDec->HP_B, psDec->HP_A, psDec->HPState, pOut, L );
+    
+    if(psDec->nFramesDecoded>2){//HP begin after the second frame
+        SKP_Silk_biquad( pOut, psDec->HP_B, psDec->HP_A, psDec->HPState, pOut, L );
+    }
 
     /********************************************/
     /* set output frame length                    */
