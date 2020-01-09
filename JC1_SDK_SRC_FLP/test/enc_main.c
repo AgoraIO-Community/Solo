@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
-
 #include "AGR_JC1_SDK_API.h"
+
+/*use on linux/android*/
+#ifndef _WIN32
+#include <unistd.h> 
+#endif
 
 
 #pragma comment(lib,"libSATECodec_FLP.lib")
