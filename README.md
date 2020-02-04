@@ -1,7 +1,7 @@
 *English|[中文](README.zh.md)*
 # Introduction
 
-Agora SOLO is an open source speech codec, it was developed based on Silk with BWE(Bandwidth Extension) and MDC(Multi Description Coding). With these technologies, SOLO is enable to resist weak networks at low bitrates. Solo can support Android/iOS/MacOS/Windows now. 
+Agora SOLO is an open source speech codec, it was developed based on Silk with BWE(Bandwidth Extension) and MDC(Multi Description Coding). With these technologies, SOLO is able to resist weak networks at low bitrates. Solo can support Android/iOS/MacOS/Windows now. 
 
 Figure 1. Architecture of SOLO encoder：
 ![solo_encoder](https://github.com/AgoraIO-Community/Solo/blob/master/imag/solo_encoder.png)
