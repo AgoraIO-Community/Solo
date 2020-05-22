@@ -18,7 +18,7 @@ The main reason for SOLO to use bandwidth expansion is to reduce the computation
 
 ## MDC with delay decision
 
-In Silk, delay decision module is a module for computing coding error. It can select the bitstream with the smallest error from multiple candidate bitstreams as the coding output. To some extent, it makes scalar quantization have the performance of vector quantization SOLO uses the delay decision module to realize the analysis and construction of multi description bitstream. The MDC of SOLO mainly acts on the residual signal output by the filter. SOLO will perform multi gain control on the residual signal according to the current signal state: after the MD gain a (0 < a < 1) is calcelated, it will be acted on the odd subframe. Meanwhile, the even subframe is multiplied by (1-a) . Here, it is recorded as residual 1 and residual 2.
+In Silk, delay decision module is a module for computing coding error. It can select the bitstream with the smallest error from multiple candidate bitstreams as the coding output. To some extent, it makes scalar quantization have the performance of vector quantization SOLO uses the delay decision module to realize the analysis and construction of multi description bitstream. The MDC of SOLO mainly acts on the residual signal output by the filter. SOLO will perform multi gain control on the residual signal according to the current signal state: after the MD gain a (0 < a < 1) is calculated, it will be acted on the odd subframe. Meanwhile, the even subframe is multiplied by (1-a) . Here, it is recorded as residual 1 and residual 2.
 
 Figure 3. Multiple description residual signal:
 ![solo_residual](https://github.com/AgoraIO-Community/Solo/blob/master/imag/solo_residual.png)
